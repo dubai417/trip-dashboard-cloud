@@ -2,6 +2,15 @@
   "version": 1,
   "trips": [
     {
+      "id": "alps-family-13days",
+      "name": "Alps Family — 13 Days",
+      "dateRange": "13 days · Zurich → Grindelwald → Chamonix → Como → Bolzano → Innsbruck → Vienna",
+      "days": 13,
+      "places": 95,
+      "updatedAt": "2026-07-02T19:08:17Z",
+      "dataPath": "trips/alps-family-13days.json"
+    },
+    {
       "id": "thailand-sample",
       "name": "Thailand Highlights",
       "dateRange": "3 days · Bangkok",
