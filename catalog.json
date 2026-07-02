@@ -26,6 +26,7 @@
       "dateRange": "72 places · restaurants · activities · cafés",
       "days": 3,
       "places": 72,
+      "kind": "places",
       "updatedAt": "2026-07-02T10:30:00Z",
       "dataPath": "trips/bangkok-poi.json"
     }
