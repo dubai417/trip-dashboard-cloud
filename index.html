@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trip Dashboard — Cloud</title>
+<style>
+  :root { --navy:#0a2533; --navy2:#1d5570; --gold:#d3ae52; --ink:#12303d; --muted:#6b8a97; --card:#ffffff; --bg:#eef3f5; --line:#dce6ea; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--ink); }
+  header { background:linear-gradient(135deg,var(--navy),var(--navy2)); color:#fff; padding:34px 20px 26px; text-align:center; }
+  header h1 { margin:0 0 6px; font-size:24px; letter-spacing:.3px; }
+  header p { margin:0; opacity:.85; font-size:14px; }
+  .badge { display:inline-block; margin-top:12px; background:rgba(255,255,255,.16); color:#fff; padding:5px 12px; border-radius:999px; font-size:12px; font-weight:600; }
+  main { max-width:760px; margin:0 auto; padding:20px 16px 60px; }
+  .grid { display:grid; gap:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:16px; box-shadow:0 6px 18px rgba(10,37,51,.05); }
+  .card h2 { margin:0 0 4px; font-size:18px; }
+  .meta { color:var(--muted); font-size:13px; margin:0 0 4px; }
+  .count { color:var(--navy2); font-weight:700; font-size:13px; }
+  .row { display:flex; gap:10px; margin-top:12px; flex-wrap:wrap; }
+  a.btn { flex:1 1 140px; text-align:center; text-decoration:none; padding:11px 12px; border-radius:11px; font-weight:700; font-size:14px; }
+  a.dl { background:var(--navy); color:#fff; }
+  a.mm { background:#fff; color:var(--navy2); border:1.5px solid var(--line); }
+  .hint { color:var(--muted); font-size:12.5px; margin-top:10px; }
+  footer { text-align:center; color:var(--muted); font-size:12px; padding:20px; }
+  .empty { text-align:center; color:var(--muted); padding:50px 20px; }
+  @media (prefers-color-scheme: dark){
+    :root{ --ink:#e8eef1; --muted:#8fa9b4; --card:#12232c; --bg:#0b1a21; --line:#22414d; }
+    a.mm{ background:#12232c; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>🧭 Trip Dashboard — Cloud</h1>
+  <p>Download shared trips &amp; maps. Open the file in the Trip Dashboard app to import.</p>
+  <span class="badge" id="count">Loading…</span>
+</header>
+<main>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" style="display:none">No trips published yet.</div>
+</main>
+<footer>Trip Dashboard · published via GitHub</footer>
+<script>
+  function esc(s){ return (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+  fetch('catalog.json?v=' + Date.now())
+    .then(r => r.ok ? r.json() : {trips:[]})
+    .then(cat => {
+      const trips = (cat.trips || []);
+      document.getElementById('count').textContent = trips.length + ' trip' + (trips.length===1?'':'s');
+      const grid = document.getElementById('grid');
+      if (!trips.length){ document.getElementById('empty').style.display='block'; return; }
+      grid.innerHTML = trips.map(t => {
+        const mm = t.myMapsURL ? `<a class="btn mm" href="${esc(t.myMapsURL)}" target="_blank" rel="noopener">🗺️ Open My Maps</a>` : '';
+        return `<div class="card">
+          <h2>${esc(t.name)}</h2>
+          ${t.dateRange ? `<p class="meta">${esc(t.dateRange)}</p>` : ''}
+          <p class="count">${t.days||0} days · ${t.places||0} places</p>
+          <div class="row">
+            <a class="btn dl" href="${esc(t.dataPath)}" download>⬇︎ Download trip</a>
+            ${mm}
+          </div>
+          <p class="hint">Tip: open the downloaded file in the Trip Dashboard app to import all stops &amp; days.</p>
+        </div>`;
+      }).join('');
+    })
+    .catch(() => { document.getElementById('empty').style.display='block'; document.getElementById('count').textContent='—'; });
+</script>
+</body>
+</html>
