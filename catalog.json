@@ -29,6 +29,76 @@
       "kind": "places",
       "updatedAt": "2026-07-02T12:30:00Z",
       "dataPath": "trips/bangkok-poi.json"
+    },
+    {
+      "id": "zurich-poi-finder",
+      "name": "Zurich POI Finder",
+      "dateRange": "138 places · restaurants · activities · cafés",
+      "days": 1,
+      "places": 138,
+      "kind": "places",
+      "updatedAt": "2026-07-02T18:18:08Z",
+      "dataPath": "trips/zurich-poi-finder.json"
+    },
+    {
+      "id": "grindelwald-poi-finder",
+      "name": "Grindelwald POI Finder",
+      "dateRange": "72 places · restaurants · activities · cafés",
+      "days": 1,
+      "places": 72,
+      "kind": "places",
+      "updatedAt": "2026-07-02T18:18:08Z",
+      "dataPath": "trips/grindelwald-poi-finder.json"
+    },
+    {
+      "id": "chamonix-poi-finder",
+      "name": "Chamonix POI Finder",
+      "dateRange": "75 places · restaurants · activities · cafés",
+      "days": 1,
+      "places": 75,
+      "kind": "places",
+      "updatedAt": "2026-07-02T18:18:08Z",
+      "dataPath": "trips/chamonix-poi-finder.json"
+    },
+    {
+      "id": "lake-como-poi-finder",
+      "name": "Lake Como POI Finder",
+      "dateRange": "93 places · restaurants · activities · cafés",
+      "days": 1,
+      "places": 93,
+      "kind": "places",
+      "updatedAt": "2026-07-02T18:18:08Z",
+      "dataPath": "trips/lake-como-poi-finder.json"
+    },
+    {
+      "id": "bolzano-poi-finder",
+      "name": "Bolzano POI Finder",
+      "dateRange": "91 places · restaurants · activities · cafés",
+      "days": 1,
+      "places": 91,
+      "kind": "places",
+      "updatedAt": "2026-07-02T18:18:08Z",
+      "dataPath": "trips/bolzano-poi-finder.json"
+    },
+    {
+      "id": "tirol-poi-finder",
+      "name": "Tirol POI Finder",
+      "dateRange": "144 places · restaurants · activities · cafés",
+      "days": 1,
+      "places": 144,
+      "kind": "places",
+      "updatedAt": "2026-07-02T18:18:08Z",
+      "dataPath": "trips/tirol-poi-finder.json"
+    },
+    {
+      "id": "vienna-poi-finder",
+      "name": "Vienna POI Finder",
+      "dateRange": "122 places · restaurants · activities · cafés",
+      "days": 1,
+      "places": 122,
+      "kind": "places",
+      "updatedAt": "2026-07-02T18:18:08Z",
+      "dataPath": "trips/vienna-poi-finder.json"
     }
   ]
 }
