@@ -19,6 +19,15 @@
       "places": 3,
       "updatedAt": "2026-07-01T09:00:00Z",
       "dataPath": "trips/london.json"
+    },
+    {
+      "id": "bangkok-poi-finder",
+      "name": "Bangkok POI Finder",
+      "dateRange": "72 places · restaurants · activities · cafés",
+      "days": 3,
+      "places": 72,
+      "updatedAt": "2026-07-02T10:30:00Z",
+      "dataPath": "trips/bangkok-poi.json"
     }
   ]
 }
