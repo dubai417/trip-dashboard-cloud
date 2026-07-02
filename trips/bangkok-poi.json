@@ -27,6 +27,9 @@
      "setting": "Family halal dining",
      "goodToKnow": "Good mall-based choice; verify latest halal certificate on arrival.",
      "address": "MBK Center, 444 Phayathai Rd, Pathum Wan, Bangkok",
+     "plusCode": "7P52PGVH+RM",
+     "lat": 13.7445,
+     "lon": 100.5292,
      "website": "https://www.yanarestaurant.com/"
     },
     {
@@ -49,7 +52,10 @@
      "famousFor": "Well-known family-run Thai Muslim restaurant popular with Muslim travelers.",
      "setting": "Thai Muslim halal",
      "goodToKnow": "Small local place; reserve or go off-peak for families.",
-     "address": "259/9 Soi Sukhumvit 22, Khlong Toei, Bangkok 10110"
+     "address": "259/9 Soi Sukhumvit 22, Khlong Toei, Bangkok 10110",
+     "plusCode": "7P52PHH7+GQ",
+     "lat": 13.7288,
+     "lon": 100.5644
     },
     {
      "name": "Mama Yaya",
@@ -71,6 +77,9 @@
      "famousFor": "MICHELIN-listed halal spot with Thai-Muslim family cooking and southern influences.",
      "setting": "Michelin-listed halal Thai-Muslim",
      "goodToKnow": "Check opening hours before going; small place can be busy.",
+     "plusCode": "7P52RJ85+8H",
+     "lat": 13.8158,
+     "lon": 100.609,
      "website": "https://guide.michelin.com/en/bangkok-region/bangkok/restaurant/mama-yaya"
     },
     {
@@ -93,6 +102,9 @@
      "famousFor": "MICHELIN-listed certified halal Indian restaurant with garden setting.",
      "setting": "Fine dining halal-certified",
      "goodToKnow": "Better for couples or family special dinner; confirm no alcohol preference when booking.",
+     "plusCode": "7P52PHF9+XR",
+     "lat": 13.7249,
+     "lon": 100.5695,
      "website": "https://guide.michelin.com/en/bangkok-region/bangkok/restaurant/indus"
     },
     {
@@ -116,6 +128,9 @@
      "setting": "Upscale halal-friendly mall dining",
      "goodToKnow": "Mall branch is practical for families; verify halal status and alcohol-free needs with staff.",
      "address": "CentralWorld, Ratchadamri Rd, Pathum Wan, Bangkok",
+     "plusCode": "7P52PGWQ+MH",
+     "lat": 13.7467,
+     "lon": 100.539,
      "website": "https://www.google.com/maps/search/?api=1&query=Al+Saray+CentralWorld+Bangkok"
     },
     {
@@ -138,6 +153,9 @@
      "famousFor": "Long-running Lebanese choice for hummus, grills, and family-friendly Middle Eastern meals.",
      "setting": "Middle Eastern dining",
      "goodToKnow": "Confirm halal and no-alcohol preference before ordering; good backup for picky eaters.",
+     "plusCode": "7P52PHR3+42",
+     "lat": 13.7403,
+     "lon": 100.5525,
      "website": "https://www.google.com/maps/search/?api=1&query=Beirut+Restaurant+Sukhumvit+Bangkok"
     },
     {
@@ -160,6 +178,9 @@
      "famousFor": "Known for Lebanese grills, mezze, and casual family meals.",
      "setting": "Lebanese family dining",
      "goodToKnow": "Useful for families avoiding pork; confirm halal status on arrival.",
+     "plusCode": "7P52PHJ8+MQ",
+     "lat": 13.7317,
+     "lon": 100.5669,
      "website": "https://www.google.com/maps/search/?api=1&query=Nadimos+Lebanese+Restaurant+Bangkok"
     },
     {
@@ -183,6 +204,9 @@
      "setting": "Halal Middle Eastern / Thai",
      "goodToKnow": "Good near Pratunam; verify opening hours and halal certificate.",
      "address": "120/37 Thanon Ratchaprarop, Bangkok",
+     "plusCode": "7P52QG3R+VV",
+     "lat": 13.7547,
+     "lon": 100.5422,
      "website": "https://www.google.com/maps/search/?api=1&query=Maedah+Restaurant+Bangkok+Bangkok"
     },
     {
@@ -206,6 +230,9 @@
      "setting": "Indian halal",
      "goodToKnow": "Area is busy at night; family visits are easier earlier in the evening.",
      "address": "Soi Sukhumvit 3/1, Khlong Toei Nuea, Bangkok",
+     "plusCode": "7P52PHV3+5R",
+     "lat": 13.7429,
+     "lon": 100.5545,
      "website": "https://www.google.com/maps/search/?api=1&query=Al-Hussain+Restaurant+Bangkok+Bangkok"
     },
     {
@@ -229,6 +256,9 @@
      "setting": "Halal Thai restaurant",
      "goodToKnow": "Call ahead for exact hours; good Thai halal option away from malls.",
      "address": "Sukhumvit Soi 31, Bangkok",
+     "plusCode": "7P52PHP9+94",
+     "lat": 13.7359,
+     "lon": 100.5678,
      "website": "https://www.google.com/maps/search/?api=1&query=Sophia+Restaurant+Sukhumvit+31+Bangkok"
     },
     {
@@ -251,6 +281,9 @@
      "famousFor": "Long-running halal steakhouse and Thai food option, useful for bigger families.",
      "setting": "Halal steakhouse",
      "goodToKnow": "Better with private car/taxi; confirm branch and hours.",
+     "plusCode": "7P52QJ5C+9J",
+     "lat": 13.7585,
+     "lon": 100.6216,
      "website": "https://www.google.com/maps/search/?api=1&query=Sinthorn+Steak+House+Halal+Restaurant+Bangkok"
     },
     {
@@ -273,6 +306,9 @@
      "famousFor": "Famous Thai Muslim-style grilled chicken tradition linked to a family business dating back to 1943.",
      "setting": "Thai Muslim grilled chicken",
      "goodToKnow": "Needs verification for current location/hours; go for the chicken specialty.",
+     "plusCode": "7P52QG3F+RC",
+     "lat": 13.7546,
+     "lon": 100.5235,
      "website": "https://www.google.com/maps/search/?api=1&query=Jeerapan+Bangkok+grilled+chicken+Bangkok"
     },
     {
@@ -296,6 +332,9 @@
      "setting": "Halal Middle Eastern",
      "goodToKnow": "Late hours may vary; verify no-alcohol preference when ordering.",
      "address": "68/1 Sukhumvit Soi 2, Klong Toey, Bangkok",
+     "plusCode": "7P52PHQ2+VR",
+     "lat": 13.7397,
+     "lon": 100.5521,
      "website": "https://www.google.com/maps/search/?api=1&query=Arabesque+Restaurant+Bangkok+Bangkok"
     },
     {
@@ -319,6 +358,9 @@
      "setting": "Indian vegetarian/halal-friendly",
      "goodToKnow": "Verify halal status by branch; vegetarian dishes are safer for no pork.",
      "address": "Rama 1 Road, Bangkok",
+     "plusCode": "7P52PGWM+9W",
+     "lat": 13.746,
+     "lon": 100.5348,
      "website": "https://www.google.com/maps/search/?api=1&query=Royal+India+Bistro+Bangkok+Bangkok"
     },
     {
@@ -342,6 +384,9 @@
      "setting": "Indian dining",
      "goodToKnow": "Confirm meat sourcing/halal status with staff; vegetarian dishes available.",
      "address": "999/9 Rama 1 Road, Bangkok",
+     "plusCode": "7P52PGWQ+MH",
+     "lat": 13.7467,
+     "lon": 100.539,
      "website": "https://www.google.com/maps/search/?api=1&query=Balbir%27s+Indian+Food+Bangkok+Bangkok"
     },
     {
@@ -365,6 +410,9 @@
      "setting": "Yemeni halal",
      "goodToKnow": "Good for Gulf travelers; verify branch and family seating.",
      "address": "75/3 Soi Sukhumvit Road, Watthana, Bangkok",
+     "plusCode": "7P52PHR3+RV",
+     "lat": 13.742,
+     "lon": 100.5547,
      "website": "https://www.google.com/maps/search/?api=1&query=Hadramaut+Al+Yemen+Bangkok+Bangkok"
     },
     {
@@ -388,6 +436,9 @@
      "setting": "Halal food court stall",
      "goodToKnow": "Fast, simple, budget-friendly; best for lunch while shopping.",
      "address": "MBK Center, 444 Phayathai Rd, Pathum Wan, Bangkok",
+     "plusCode": "7P52PGVH+RM",
+     "lat": 13.7445,
+     "lon": 100.5292,
      "website": "https://www.mbk-center.co.th/en/blog/mbk-halalfood-atmbk/"
     },
     {
@@ -410,6 +461,9 @@
      "famousFor": "Stylish plant-based restaurant popular with health-conscious travelers.",
      "setting": "Plant-based dining",
      "goodToKnow": "Pork-free by concept; verify menu for alcohol-containing sauces.",
+     "plusCode": "7P52PHJJ+M7",
+     "lat": 13.7317,
+     "lon": 100.5807,
      "website": "https://www.google.com/maps/search/?api=1&query=Broccoli+Revolution+Bangkok+Bangkok"
     },
     {
@@ -432,6 +486,9 @@
      "famousFor": "Modern vegan restaurant with creative global menu; useful for pork-free dining.",
      "setting": "Plant-based modern dining",
      "goodToKnow": "Reserve at busy times; verify no alcohol preference.",
+     "plusCode": "7P52PHG8+RV",
+     "lat": 13.727,
+     "lon": 100.5672,
      "website": "https://www.google.com/maps/search/?api=1&query=Vistro+Bangkok+Bangkok"
     },
     {
@@ -454,6 +511,9 @@
      "famousFor": "Pure vegetarian Indian restaurant, useful for no pork and no meat preferences.",
      "setting": "Pure vegetarian Indian",
      "goodToKnow": "Good vegetarian choice; check spice level for kids.",
+     "plusCode": "7P52PHM7+84",
+     "lat": 13.7333,
+     "lon": 100.5628,
      "website": "https://www.google.com/maps/search/?api=1&query=Saras+Veg+Food+Bangkok+Bangkok"
     },
     {
@@ -476,6 +536,9 @@
      "famousFor": "Relaxed vegetarian restaurant near Khao San/Old Town tourist zone.",
      "setting": "Vegetarian traveler café",
      "goodToKnow": "Casual traveler vibe; confirm hours before visiting.",
+     "plusCode": "7P52QF5W+JW",
+     "lat": 13.7591,
+     "lon": 100.4973,
      "website": "https://www.google.com/maps/search/?api=1&query=Ethos+Vegetarian+Restaurant+Bangkok+Bangkok"
     },
     {
@@ -498,6 +561,9 @@
      "famousFor": "Quiet heritage villa setting with mostly vegetarian and seafood Thai dishes.",
      "setting": "Vegetarian/seafood garden dining",
      "goodToKnow": "Peaceful couples/family meal; confirm ingredients to avoid alcohol/pork.",
+     "plusCode": "7P52PHW2+3V",
+     "lat": 13.7452,
+     "lon": 100.5522,
      "website": "https://www.google.com/maps/search/?api=1&query=Na+Aroon+Bangkok+Bangkok"
     },
     {
@@ -520,6 +586,9 @@
      "famousFor": "Popular vegetarian/vegan option near Khao San Road.",
      "setting": "Vegetarian casual",
      "goodToKnow": "Good for Old Town lunch; avoid peak backpacker hours if with kids.",
+     "plusCode": "7P52QF5W+GR",
+     "lat": 13.7588,
+     "lon": 100.497,
      "website": "https://www.google.com/maps/search/?api=1&query=Mango+Vegetarian+%26+Vegan+Restaurant+Bangkok+Bangkok"
     },
     {
@@ -543,6 +612,9 @@
      "setting": "Vegetarian market food",
      "goodToKnow": "Market stalls change; verify ingredients and avoid fish sauce if needed.",
      "address": "Chatuchak Weekend Market area, Bangkok",
+     "plusCode": "7P52QHX2+R8",
+     "lat": 13.7996,
+     "lon": 100.5508,
      "website": "https://www.google.com/maps/search/?api=1&query=vegetarian+food+Chatuchak+Weekend+Market+Bangkok+Bangkok"
     },
     {
@@ -566,6 +638,9 @@
      "setting": "Iconic palace and temple",
      "goodToKnow": "Strict dress code; go early; hot and crowded; excellent for culture and photos.",
      "address": "Na Phra Lan Rd, Phra Borom Maha Ratchawang, Phra Nakhon, Bangkok",
+     "plusCode": "7P52QF2R+2G",
+     "lat": 13.75,
+     "lon": 100.4913,
      "website": "https://www.royalgrandpalace.th/en/home"
     },
     {
@@ -589,6 +664,9 @@
      "setting": "Temple / cultural landmark",
      "goodToKnow": "Dress modestly; easy to combine with Grand Palace and Wat Arun.",
      "address": "2 Sanam Chai Rd, Phra Nakhon, Bangkok",
+     "plusCode": "7P52PFWV+H5",
+     "lat": 13.7465,
+     "lon": 100.493,
      "website": "https://www.google.com/maps/search/?api=1&query=Wat+Pho+Bangkok+Bangkok"
     },
     {
@@ -612,6 +690,9 @@
      "setting": "Temple / riverside landmark",
      "goodToKnow": "Best photos late afternoon; cover shoulders/knees; ferry is easy and cheap.",
      "address": "158 Wang Doem Rd, Wat Arun, Bangkok Yai, Bangkok 10600",
+     "plusCode": "7P52PFVQ+FH",
+     "lat": 13.7437,
+     "lon": 100.4889,
      "website": "https://www.google.com/maps/search/?api=1&query=Wat+Arun+Bangkok+Bangkok"
     },
     {
@@ -635,6 +716,9 @@
      "setting": "Shopping mall / food / riverfront",
      "goodToKnow": "Great indoor choice for heat/rain; family-friendly and stroller-friendly.",
      "address": "299 Charoen Nakhon Rd, Khlong San, Bangkok",
+     "plusCode": "7P52PGG6+H6",
+     "lat": 13.7264,
+     "lon": 100.5106,
      "website": "https://www.iconsiam.com/en"
     },
     {
@@ -658,6 +742,9 @@
      "setting": "Luxury shopping / aquarium base",
      "goodToKnow": "Excellent rainy-day family base; very busy weekends.",
      "address": "991 Rama I Rd, Pathum Wan, Bangkok",
+     "plusCode": "7P52PGWM+FV",
+     "lat": 13.7462,
+     "lon": 100.5347,
      "website": "https://www.siamparagon.co.th/"
     },
     {
@@ -681,6 +768,9 @@
      "setting": "Indoor aquarium",
      "goodToKnow": "Good heat/rain backup; allow 90+ minutes; buy tickets online for deals.",
      "address": "B1-B2 Siam Paragon, Rama I Rd, Bangkok",
+     "plusCode": "7P52PGWP+92",
+     "lat": 13.746,
+     "lon": 100.5351,
      "website": "https://www.visitsealife.com/bangkok/"
     },
     {
@@ -704,6 +794,9 @@
      "setting": "Weekend market / shopping",
      "goodToKnow": "Go early morning; hot and crowded; keep kids close and carry cash.",
      "address": "Kamphaeng Phet 2 Rd, Chatuchak, Bangkok",
+     "plusCode": "7P52QHX2+R8",
+     "lat": 13.7996,
+     "lon": 100.5508,
      "website": "https://www.google.com/maps/search/?api=1&query=Chatuchak+Weekend+Market+Bangkok+Bangkok"
     },
     {
@@ -727,6 +820,9 @@
      "setting": "Night market / riverfront mall",
      "goodToKnow": "Best after sunset; check show timings; choose halal/vegetarian food carefully.",
      "address": "2194 Charoen Krung Rd, Wat Phraya Krai, Bangkok",
+     "plusCode": "7P52PG33+R4",
+     "lat": 13.7046,
+     "lon": 100.5028,
      "website": "https://www.asiatiquethailand.com/en"
     },
     {
@@ -750,6 +846,9 @@
      "setting": "Observation deck",
      "goodToKnow": "Book sunset ahead; glass tray may not suit very young/scared kids.",
      "address": "114 Narathiwas Rd, Silom, Bangkok",
+     "plusCode": "7P52PGFH+6G",
+     "lat": 13.7231,
+     "lon": 100.5288,
      "website": "https://kingpowermahanakhon.co.th/skywalk/"
     },
     {
@@ -773,6 +872,9 @@
      "setting": "Boat transport / sightseeing",
      "goodToKnow": "Great for avoiding traffic; keep kids seated; check last boat times.",
      "address": "Chao Phraya River piers, Bangkok",
+     "plusCode": "7P52PG97+68",
+     "lat": 13.718,
+     "lon": 100.5133,
      "website": "https://www.google.com/maps/search/?api=1&query=Chao+Phraya+Tourist+Boat+Bangkok+Bangkok"
     },
     {
@@ -796,6 +898,9 @@
      "setting": "Interactive museum",
      "goodToKnow": "Good after temples for air-conditioning; check English exhibit availability.",
      "address": "4 Sanam Chai Rd, Phra Borom Maha Ratchawang, Bangkok",
+     "plusCode": "7P52PFVV+PR",
+     "lat": 13.7443,
+     "lon": 100.4946,
      "website": "https://www.museumsiam.org/"
     },
     {
@@ -819,6 +924,9 @@
      "setting": "Heritage house / museum",
      "goodToKnow": "Guided tours often required; peaceful garden setting.",
      "address": "6 Kasem San 2 Alley, Wang Mai, Pathum Wan, Bangkok",
+     "plusCode": "7P52PGXH+RC",
+     "lat": 13.7496,
+     "lon": 100.5286,
      "website": "https://jimthompsonhouse.org/"
     },
     {
@@ -842,6 +950,9 @@
      "setting": "Urban park / nature",
      "goodToKnow": "Best early morning or sunset; monitor lizards are common; bring water.",
      "address": "Rama IV Rd, Lumphini, Pathum Wan, Bangkok",
+     "plusCode": "7P52PGJR+2P",
+     "lat": 13.73,
+     "lon": 100.5418,
      "website": "https://www.google.com/maps/search/?api=1&query=Lumphini+Park+Bangkok+Bangkok"
     },
     {
@@ -865,6 +976,9 @@
      "setting": "Urban nature / skywalk",
      "goodToKnow": "Best early morning/late afternoon; good stroller areas; hot midday.",
      "address": "Ratchadaphisek Rd, Khlong Toei, Bangkok",
+     "plusCode": "7P52PHH5+JC",
+     "lat": 13.7291,
+     "lon": 100.5586,
      "website": "https://www.google.com/maps/search/?api=1&query=Benjakitti+Park+Bangkok+Bangkok"
     },
     {
@@ -888,6 +1002,9 @@
      "setting": "Nature cycling / local community",
      "goodToKnow": "Best in morning; bring insect repellent; not a theme park—respect local community.",
      "address": "Bang Kachao, Phra Pradaeng, Samut Prakan",
+     "plusCode": "7P52MHX7+5R",
+     "lat": 13.6979,
+     "lon": 100.5645,
      "website": "https://bangkachao.com/"
     },
     {
@@ -911,6 +1028,9 @@
      "setting": "Safari park / animal shows",
      "goodToKnow": "Consider animal-welfare concerns; hot day—go early; allow full day.",
      "address": "99 Panya Indra Rd, Sam Wa Tawan Tok, Bangkok 10510",
+     "plusCode": "7P52VP83+5X",
+     "lat": 13.8654,
+     "lon": 100.7049,
      "website": "https://www.google.com/maps/search/?api=1&query=Safari+World+Bangkok+Bangkok"
     },
     {
@@ -934,6 +1054,9 @@
      "setting": "Theme park",
      "goodToKnow": "Best for kids/teens; check ride height rules and weather.",
      "address": "62 Moo 1 Rangsit-Ongkharak Rd, Pathum Thani",
+     "plusCode": "7P52XMQF+XV",
+     "lat": 13.9899,
+     "lon": 100.6747,
      "website": "https://www.dreamworld.co.th/"
     },
     {
@@ -957,6 +1080,9 @@
      "setting": "Water park / amusement park",
      "goodToKnow": "Bring swimwear; check water park hours; best on hot days.",
      "address": "203 Suan Siam Rd, Khan Na Yao, Bangkok",
+     "plusCode": "7P52RM4R+9F",
+     "lat": 13.8059,
+     "lon": 100.6912,
      "website": "https://www.siamamazingpark.com/"
     },
     {
@@ -980,6 +1106,9 @@
      "setting": "Open-air heritage park",
      "goodToKnow": "Large site; rent golf cart with kids; go morning/late afternoon.",
      "address": "296/1 Sukhumvit Rd, Bang Pu Mai, Samut Prakan",
+     "plusCode": "7P52GJQF+Q5",
+     "lat": 13.5394,
+     "lon": 100.6229,
      "website": "https://www.muangboranmuseum.com/en/"
     },
     {
@@ -1003,6 +1132,9 @@
      "setting": "Themed shopping mall",
      "goodToKnow": "Great rainy-day stop; food court is busy but family-friendly.",
      "address": "88 Sukhumvit Rd, Khlong Toei Nuea, Bangkok",
+     "plusCode": "7P52PHQ6+55",
+     "lat": 13.7379,
+     "lon": 100.5604,
      "website": "https://www.terminal21.co.th/asok/"
     },
     {
@@ -1026,6 +1158,9 @@
      "setting": "Shopping mall / events",
      "goodToKnow": "Great for rain/heat; busy evenings; many restaurants but check pork/alcohol.",
      "address": "999/9 Rama I Rd, Pathum Wan, Bangkok",
+     "plusCode": "7P52PGWQ+MH",
+     "lat": 13.7467,
+     "lon": 100.539,
      "website": "https://www.centralworld.co.th/"
     },
     {
@@ -1049,6 +1184,9 @@
      "setting": "Market day trip",
      "goodToKnow": "Touristy but memorable; go early; watch kids near tracks/water.",
      "address": "Outside Bangkok; tour pickup usually from hotel",
+     "plusCode": "7M5XGX95+9W",
+     "lat": 13.5184,
+     "lon": 99.9598,
      "website": "https://www.google.com/maps/search/?api=1&query=Damnoen+Saduak+Floating+Market+Maeklong+Railway+Market+Bangkok+tour+Bangkok"
     },
     {
@@ -1072,6 +1210,9 @@
      "setting": "Photo village / family dining area",
      "goodToKnow": "More photo/dining than attraction; verify menu for no pork/alcohol.",
      "address": "351 Khan Na Yao, Bangkok",
+     "plusCode": "7P52RMFH+C2",
+     "lat": 13.8236,
+     "lon": 100.6776,
      "website": "https://www.google.com/maps/search/?api=1&query=Chocolate+Ville+Bangkok+Bangkok"
     },
     {
@@ -1095,6 +1236,9 @@
      "setting": "Kids museum / play",
      "goodToKnow": "Good for younger kids; check reopening/status and water-play rules before going.",
      "address": "810 Kamphaeng Phet 4 Rd, Chatuchak, Bangkok",
+     "plusCode": "7P52RH32+HR",
+     "lat": 13.8039,
+     "lon": 100.552,
      "website": "https://www.google.com/maps/search/?api=1&query=Children%27s+Discovery+Museum+Bangkok+Bangkok"
     },
     {
@@ -1117,6 +1261,9 @@
      "famousFor": "Often cited as a benchmark specialty café in Bangkok with competition-style drinks.",
      "setting": "Specialty coffee / roastery café",
      "goodToKnow": "Go weekday morning if possible; check pastry ingredients for gelatin/pork-free needs.",
+     "plusCode": "7P52QG4M+J4",
+     "lat": 13.7565,
+     "lon": 100.5328,
      "website": "https://www.google.com/maps/search/?api=1&query=Factory+Coffee+Bangkok+Phaya+Thai+Bangkok"
     },
     {
@@ -1139,6 +1286,9 @@
      "famousFor": "Respected Bangkok specialty roaster with rotating single-origin menu and strong pour-over reputation.",
      "setting": "Specialty coffee roaster",
      "goodToKnow": "Weekends can be crowded; good for couples and coffee-focused travelers.",
+     "plusCode": "7P52QGJV+RQ",
+     "lat": 13.7821,
+     "lon": 100.5444,
      "website": "https://www.google.com/maps/search/?api=1&query=NANA+Coffee+Roasters+Ari+Bangkok+Bangkok"
     },
     {
@@ -1162,6 +1312,9 @@
      "setting": "Thai specialty coffee",
      "goodToKnow": "Great café crawl area; outdoor seating can be warm.",
      "address": "The Commons, Thong Lo, Bangkok",
+     "plusCode": "7P52PHMJ+VV",
+     "lat": 13.7347,
+     "lon": 100.5822,
      "website": "https://rootsbkk.com/"
     },
     {
@@ -1185,6 +1338,9 @@
      "setting": "Specialty coffee / heritage shophouse",
      "goodToKnow": "Best combined with Talat Noi street-art walk; expect stairs/compact space.",
      "address": "1172 San Chao Rong Kueak, Talat Noi, Samphanthawong, Bangkok 10100",
+     "plusCode": "7P52PGM7+Q2",
+     "lat": 13.7345,
+     "lon": 100.5126,
      "website": "https://www.google.com/maps/search/?api=1&query=Mother+Roaster+Talat+Noi+Bangkok"
     },
     {
@@ -1207,6 +1363,9 @@
      "famousFor": "Japanese-influenced precision coffee with spacious café and brunch menu.",
      "setting": "Specialty coffee + brunch",
      "goodToKnow": "Good for couples/family brunch; check meat ingredients in brunch items.",
+     "plusCode": "7P52PH9M+MJ",
+     "lat": 13.7192,
+     "lon": 100.584,
      "website": "https://www.google.com/maps/search/?api=1&query=Kaizen+Coffee+Ekkamai+Bangkok+Bangkok"
     },
     {
@@ -1229,6 +1388,9 @@
      "famousFor": "Known for single-origin-focused specialty coffee and serious brewing.",
      "setting": "Microroastery",
      "goodToKnow": "Best for coffee geeks; limited seating may apply.",
+     "plusCode": "7P52PGGM+5V",
+     "lat": 13.7254,
+     "lon": 100.5347,
      "website": "https://www.google.com/maps/search/?api=1&query=PAGA+Microroastery+Bangkok+Bangkok"
     },
     {
@@ -1252,6 +1414,9 @@
      "setting": "Manual brew café",
      "goodToKnow": "Great with BACC visit; slower service by design.",
      "address": "Bangkok Art and Culture Centre area, Rama I Rd",
+     "plusCode": "7P52PGWH+HX",
+     "lat": 13.7464,
+     "lon": 100.53,
      "website": "https://www.google.com/maps/search/?api=1&query=Gallery+Drip+Coffee+Bangkok+Bangkok"
     },
     {
@@ -1275,6 +1440,9 @@
      "setting": "Specialty coffee roaster",
      "goodToKnow": "Closed some weekdays per Time Out listing; verify hours before visiting.",
      "address": "Sukhumvit 67 Alley, Phra Khanong Nuea, Bangkok",
+     "plusCode": "7P52PH8X+23",
+     "lat": 13.7151,
+     "lon": 100.5977,
      "website": "https://www.google.com/maps/search/?api=1&query=Hands+and+Heart+Coffee+Roaster+Bangkok+Bangkok"
     },
     {
@@ -1298,6 +1466,9 @@
      "setting": "International specialty coffee chain",
      "goodToKnow": "Easy, consistent option; not local but reliable.",
      "address": "Empire Tower, Sathorn, Bangkok",
+     "plusCode": "7P52PGCH+9R",
+     "lat": 13.7209,
+     "lon": 100.5296,
      "website": "https://arabica.coffee/"
     },
     {
@@ -1320,6 +1491,9 @@
      "famousFor": "Popular specialty café in Bangkok’s café-hopping zone.",
      "setting": "Specialty coffee café",
      "goodToKnow": "Good to pair with Roots/Kaizen café crawl; verify hours.",
+     "plusCode": "7P52PHHP+6M",
+     "lat": 13.7281,
+     "lon": 100.5867,
      "website": "https://www.google.com/maps/search/?api=1&query=Ink+%26+Lion+Cafe+Bangkok+Bangkok"
     },
     {
@@ -1342,6 +1516,9 @@
      "famousFor": "Recognized as a Bangkok specialty coffee pioneer with Thai farm links and roastery credibility.",
      "setting": "Pioneer roastery",
      "goodToKnow": "Good place to buy Thai beans; verify current branch details.",
+     "plusCode": "7P52PGFQ+46",
+     "lat": 13.7228,
+     "lon": 100.538,
      "website": "https://www.google.com/maps/search/?api=1&query=Phil+Coffee+Company+Bangkok+Bangkok"
     },
     {
@@ -1364,6 +1541,9 @@
      "famousFor": "Established Bangkok specialty roaster known for espresso and rotating beans.",
      "setting": "Specialty roaster café",
      "goodToKnow": "Small café; good for serious coffee rather than long family meal.",
+     "plusCode": "7P52PHP9+4G",
+     "lat": 13.7353,
+     "lon": 100.5688,
      "website": "https://www.google.com/maps/search/?api=1&query=Ceresia+Coffee+Roasters+Bangkok+Bangkok"
     },
     {
@@ -1386,6 +1566,9 @@
      "famousFor": "Known as a distinctive Chinatown specialty coffee stop, useful during Yaowarat/Talat Noi walks.",
      "setting": "Specialty coffee / photogenic café",
      "goodToKnow": "Good photo stop; Chinatown can be hot/crowded midday.",
+     "plusCode": "7P52PGQ6+Q9",
+     "lat": 13.7395,
+     "lon": 100.5109,
      "website": "https://www.google.com/maps/search/?api=1&query=CHATA+Specialty+Coffee+Bangkok+Bangkok"
     },
     {
@@ -1409,6 +1592,9 @@
      "setting": "Brunch café / coffee",
      "goodToKnow": "Good after Lumphini Park; verify pork-free items carefully.",
      "address": "Sarasin Road, Lumphini, Bangkok",
+     "plusCode": "7P52PGPR+XJ",
+     "lat": 13.7374,
+     "lon": 100.5416,
      "website": "https://www.google.com/maps/search/?api=1&query=Rocket+Coffeebar+Lumphini+Bangkok"
     },
     {
@@ -1432,6 +1618,9 @@
      "setting": "Japanese specialty coffee",
      "goodToKnow": "Check branch opening hours; good if already near Silom/Lumphini.",
      "address": "Central Park / Sala Daeng area, Bangkok",
+     "plusCode": "7P52PGHP+2F",
+     "lat": 13.7276,
+     "lon": 100.5362,
      "website": "https://www.google.com/maps/search/?api=1&query=Onibus+Coffee+Central+Park+Bangkok+Bangkok"
     },
     {
@@ -1455,6 +1644,9 @@
      "setting": "Modern café",
      "goodToKnow": "Verify weekend hours; better for nearby plans than cross-city trip.",
      "address": "11/F SSP Tower, Na Ranong Rd, Khlong Toei, Bangkok",
+     "plusCode": "7P52PH85+P5",
+     "lat": 13.7168,
+     "lon": 100.558,
      "website": "https://www.google.com/maps/search/?api=1&query=City+Cup+SSP+Tower+Bangkok+Bangkok"
     },
     {
@@ -1478,6 +1670,9 @@
      "setting": "Bagel café / coffee",
      "goodToKnow": "Check fillings carefully for pork; choose egg/cheese/vegetarian options.",
      "address": "Charoen Krung 24, Talat Noi, Bangkok",
+     "plusCode": "7P52PGM7+HJ",
+     "lat": 13.7339,
+     "lon": 100.514,
      "website": "https://www.google.com/maps/search/?api=1&query=Sydny+Bagels+Charoenkrung+Bangkok"
     },
     {
@@ -1500,6 +1695,9 @@
      "famousFor": "Listed among strong Watthana coffee shops by coffee-focused guides.",
      "setting": "Specialty coffee roaster",
      "goodToKnow": "Good for coffee-first visit; verify hours and seating.",
+     "plusCode": "7P52PHMP+48",
+     "lat": 13.7328,
+     "lon": 100.5858,
      "website": "https://www.google.com/maps/search/?api=1&query=Karo+Coffee+Roasters+Bangkok+Bangkok"
     },
     {
@@ -1522,6 +1720,9 @@
      "famousFor": "Ekkamai specialty roaster/café option for coffee crawling.",
      "setting": "Specialty roaster café",
      "goodToKnow": "Good as part of Ekkamai coffee route; verify latest branch.",
+     "plusCode": "7P52PHGM+8V",
+     "lat": 13.7258,
+     "lon": 100.5847,
      "website": "https://www.google.com/maps/search/?api=1&query=Rolling+Roasters+Ekkamai+Bangkok+Bangkok"
     },
     {
@@ -1544,6 +1745,9 @@
      "famousFor": "Coffee-focused shop listed in Watthana specialty coffee guides.",
      "setting": "Specialty coffee",
      "goodToKnow": "Smaller specialty pick; confirm hours before making a special trip.",
+     "plusCode": "7P52PHPJ+6F",
+     "lat": 13.7356,
+     "lon": 100.5812,
      "website": "https://www.google.com/maps/search/?api=1&query=Samadool+Coffee+Bangkok+Bangkok"
     },
     {
@@ -1566,6 +1770,9 @@
      "famousFor": "Listed among good Bangkok cafés for coffee lovers; useful in Silom area.",
      "setting": "Coffeehouse / aesthetic café",
      "goodToKnow": "Good if already in Silom; verify dessert ingredients.",
+     "plusCode": "7P52PGHM+HH",
+     "lat": 13.7289,
+     "lon": 100.5339,
      "website": "https://www.google.com/maps/search/?api=1&query=Monochrome+Silom+Bangkok+cafe+Bangkok"
     },
     {
@@ -1589,6 +1796,9 @@
      "setting": "Tourist-area coffee stop",
      "goodToKnow": "Convenience pick, not a destination café; verify current location/hours.",
      "address": "Near Wat Pho, Bangkok",
+     "plusCode": "7P52PFWV+J9",
+     "lat": 13.7466,
+     "lon": 100.4934,
      "website": "https://www.google.com/maps/search/?api=1&query=Homey+Coffee+Reclining+Buddha+Temple+Bangkok+Bangkok"
     },
     {
@@ -1611,6 +1821,9 @@
      "famousFor": "Listed among Bangkok coffee lover cafés; useful if exploring northern Bangkok/Bang Sue.",
      "setting": "Local café / specialty coffee",
      "goodToKnow": "Not central; visit only if nearby or café-hopping.",
+     "plusCode": "7P52RG4H+QX",
+     "lat": 13.8069,
+     "lon": 100.53,
      "website": "https://www.google.com/maps/search/?api=1&query=Slowmov+Cafe+Bang+Sue+Bangkok+Bangkok"
     },
     {
@@ -1634,6 +1847,9 @@
      "setting": "Market café / coffee stop",
      "goodToKnow": "Weekend market area; verify hours; ask about ingredients for no pork.",
      "address": "Bang Nam Phueng Floating Market area, Samut Prakan",
+     "plusCode": "7P52MHJF+57",
+     "lat": 13.6805,
+     "lon": 100.5732,
      "website": "https://www.google.com/maps/search/?api=1&query=Coffee+Toys+Bang+Nam+Phueng+Floating+Market+Bangkok"
     }
    ]
