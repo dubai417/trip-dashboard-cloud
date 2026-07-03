@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alps to Vienna — The Complete Family Travel Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f7f3ea; --paper2:#f2ecdf; --ink:#22302e; --ink2:#4a5a56;
+  --gold:#b48a4a; --gold2:#d9bc8a; --sage:#7a8471; --pine:#24413b; --pine2:#1b332e;
+  --line:#d9cfba;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#e9e2d2;font-family:'Montserrat',sans-serif;color:var(--ink);
+  display:flex;flex-direction:column;align-items:center;gap:34px;padding:34px 10px}
+.page{width:1080px;max-width:100%;background:var(--paper);box-shadow:0 18px 60px rgba(40,35,20,.28);
+  position:relative;overflow:hidden;display:flex;flex-direction:column}
+/* ---------- shared type ---------- */
+.kicker{display:flex;align-items:center;justify-content:center;gap:14px;
+  font-size:15px;letter-spacing:.55em;text-indent:.55em;font-weight:600;color:var(--ink)}
+.kicker::before,.kicker::after{content:"";height:1px;width:70px;background:var(--gold)}
+.display{font-family:'Playfair Display',Georgia,serif;font-weight:700;text-align:center;
+  letter-spacing:.06em;line-height:1.02;color:var(--ink)}
+.script{font-family:'Great Vibes','Snell Roundhand',cursive;color:var(--gold);
+  text-align:center;font-weight:400}
+.smallcaps{letter-spacing:.35em;text-indent:.35em;text-transform:uppercase;font-weight:600;text-align:center}
+.rule{display:flex;align-items:center;justify-content:center;gap:12px;margin:14px 0}
+.rule::before,.rule::after{content:"";height:1px;width:120px;background:var(--gold)}
+.rule .dia{width:7px;height:7px;background:var(--gold);transform:rotate(45deg)}
+.leaf{color:var(--sage);font-size:18px;text-align:center}
+/* crown emblem */
+.emblem{display:flex;justify-content:center;margin-bottom:10px}
+/* ---------- badges ---------- */
+.badges{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+.badge{border:1px solid var(--gold);padding:14px 18px;min-width:150px;text-align:center;background:rgba(255,255,255,.35)}
+.badge .bi{font-size:22px;color:var(--gold);margin-bottom:8px}
+.badge .bl{font-size:11.5px;letter-spacing:.22em;text-indent:.22em;font-weight:600}
+/* ---------- dark stat bar ---------- */
+.statbar{display:flex;background:var(--pine);color:#f2ead9}
+.statbar .st{flex:1;padding:16px 12px;text-align:center;border-right:1px solid rgba(255,255,255,.14)}
+.statbar .st:last-child{border-right:none}
+.statbar .si{color:var(--gold2);font-size:19px;margin-bottom:6px}
+.statbar .sl{font-size:10.5px;letter-spacing:.2em;text-indent:.2em;font-weight:600;color:var(--gold2);margin-bottom:4px}
+.statbar .sv{font-size:12.5px;font-weight:500}
+/* ---------- numbered stops ---------- */
+.stop{display:flex;gap:14px;align-items:flex-start;margin-bottom:17px}
+.stop .n{flex:0 0 30px;height:30px;border-radius:50%;background:var(--pine);color:#f4ecd9;
+  font-family:'Playfair Display',serif;font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center;
+  border:1.5px solid var(--gold);margin-top:2px}
+.stop h4{font-family:'Playfair Display',serif;font-size:17.5px;font-weight:700;letter-spacing:.05em;margin-bottom:3px}
+.stop p{font-size:12.5px;color:var(--ink2);line-height:1.5}
+.stop .thumb{flex:0 0 84px;height:64px;border:1px solid var(--line);overflow:hidden}
+/* ---------- tips ---------- */
+.tip{display:flex;gap:11px;margin-bottom:15px;align-items:flex-start}
+.tip .ti{flex:0 0 30px;height:30px;border:1px solid var(--gold);border-radius:50%;
+  display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--gold)}
+.tip h5{font-size:11.5px;letter-spacing:.14em;font-weight:700;text-transform:uppercase;margin-bottom:2px}
+.tip p{font-size:11.5px;color:var(--ink2);line-height:1.45}
+/* ---------- timeline ---------- */
+.trow{display:flex;gap:12px;align-items:flex-start;margin-bottom:11px}
+.trow .tt{flex:0 0 56px;background:var(--gold);color:#fff;font-weight:700;font-size:11.5px;
+  text-align:center;padding:4px 0;border-radius:3px}
+.trow .td b{display:block;font-size:12.5px;font-weight:700}
+.trow .td span{font-size:11px;color:var(--ink2)}
+/* ---------- panels ---------- */
+.panel{border:1px solid var(--line);background:rgba(255,255,255,.45);padding:20px}
+.ph{font-size:13px;letter-spacing:.3em;text-indent:.3em;font-weight:700;text-align:center;margin-bottom:14px;
+  display:flex;align-items:center;justify-content:center;gap:10px}
+.ph::before,.ph::after{content:"";height:1px;width:34px;background:var(--gold)}
+/* footer */
+.pfoot{margin-top:auto;background:var(--pine2);color:#e9dfc8;text-align:center;padding:16px 10px 18px}
+.pfoot .fr{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:6px}
+.pfoot .fr::before,.pfoot .fr::after{content:"";height:1px;width:90px;background:var(--gold)}
+.pfoot .ft{font-size:12px;letter-spacing:.5em;text-indent:.5em;font-weight:600}
+.pfoot .fs{font-family:'Great Vibes',cursive;font-size:20px;color:var(--gold2)}
+/* scene */
+.scene{position:relative;width:100%;overflow:hidden}
+.scene svg{display:block;width:100%;height:auto}
+.caption-tag{position:absolute;left:50%;transform:translateX(-50%);bottom:18px;background:rgba(27,51,46,.82);
+  color:#f2ead9;font-size:11px;letter-spacing:.25em;text-indent:.25em;padding:8px 22px;border:1px solid var(--gold)}
+/* content grid helpers */
+.wrap{padding:34px 46px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px}
+.g32{display:grid;grid-template-columns:1.15fr .85fr;gap:26px}
+.mini-note{font-size:11px;color:var(--ink2);font-style:italic;text-align:center;margin-top:8px}
+.gold-chip{display:inline-block;background:var(--gold);color:#fff;border-radius:3px;font-size:10.5px;
+  font-weight:700;letter-spacing:.12em;padding:3px 10px;margin-left:8px;vertical-align:2px}
+.accent-quote{font-family:'Playfair Display',serif;font-style:italic;text-align:center;color:var(--ink2);font-size:15px}
+@media print{ body{background:#fff;padding:0;gap:0} .page{box-shadow:none;page-break-after:always;width:100%} }
+@media(max-width:1100px){ .grid2,.grid3,.g32{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+
+<!-- ============================ PAGE 1 · COVER ============================ -->
+<div class="page">
+  <div style="padding:52px 46px 0">
+    <div class="emblem">
+      <svg width="120" height="52" viewBox="0 0 120 52"><g fill="none" stroke="#b48a4a" stroke-width="1.6">
+        <path d="M18 44 40 16 52 32 62 12 76 34 88 20 104 44" stroke-linejoin="round"/>
+        <path d="M56 8 l4 -6 4 6" /><circle cx="60" cy="1.6" r="1.6" fill="#b48a4a"/>
+      </g></svg>
+    </div>
+    <h1 class="display" style="font-size:92px">ALPS<span style="color:var(--gold)"> to </span>VIENNA</h1>
+    <div class="script" style="font-size:52px;margin-top:6px">Where Peaks Meet Palaces</div>
+    <div class="rule"><div class="dia"></div></div>
+    <div class="smallcaps" style="font-size:15px">The Complete Family Travel Guide</div>
+    <div style="height:26px"></div>
+    <div class="badges">
+      <div class="badge"><div class="bi">⛰</div><div class="bl">SCENIC<br>ROUTES</div></div>
+      <div class="badge"><div class="bi">🚠</div><div class="bl">MOUNTAIN<br>RAILS</div></div>
+      <div class="badge"><div class="bi">🌊</div><div class="bl">ALPINE<br>LAKES</div></div>
+      <div class="badge"><div class="bi">🏰</div><div class="bl">OLD<br>TOWNS</div></div>
+      <div class="badge"><div class="bi">👨‍👩‍👧‍👦</div><div class="bl">FAMILY<br>MOMENTS</div></div>
+    </div>
+  </div>
+  <div style="height:30px"></div>
+  <div class="scene">
+    <svg viewBox="0 0 1080 640">
+      <defs>
+        <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dfe9ea"/><stop offset=".55" stop-color="#f0e8d6"/><stop offset="1" stop-color="#e6d9bd"/></linearGradient>
+        <linearGradient id="snow1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbfcfd"/><stop offset="1" stop-color="#c7d2d6"/></linearGradient>
+        <linearGradient id="rock1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fa0a4"/><stop offset="1" stop-color="#5d6f72"/></linearGradient>
+        <linearGradient id="pinegrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4f6b58"/><stop offset="1" stop-color="#2c4438"/></linearGradient>
+        <linearGradient id="lake1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fc3c6"/><stop offset="1" stop-color="#5d8f96"/></linearGradient>
+        <linearGradient id="meadow1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8aa06f"/><stop offset="1" stop-color="#5c7a50"/></linearGradient>
+      </defs>
+      <rect width="1080" height="640" fill="url(#sky1)"/>
+      <circle cx="810" cy="120" r="52" fill="#f6e7c5" opacity=".9"/>
+      <path d="M0 300 140 160 250 260 340 130 470 300 540 210 660 320 780 170 900 300 1000 220 1080 300 V420 H0 Z" fill="url(#snow1)"/>
+      <path d="M0 330 120 240 260 330 400 230 540 340 700 250 850 340 980 270 1080 340 V470 H0 Z" fill="url(#rock1)" opacity=".85"/>
+      <path d="M0 420 90 380 200 430 330 370 470 440 620 385 760 445 900 390 1080 440 V640 H0 Z" fill="url(#pinegrad)"/>
+      <g fill="#22392f">
+        <path d="M120 430 l16 -34 16 34 z M110 452 l26 -44 26 44 z"/>
+        <path d="M300 445 l14 -30 14 30 z M292 465 l22 -40 22 40 z"/>
+        <path d="M840 440 l15 -32 15 32 z M830 462 l25 -42 25 42 z"/>
+      </g>
+      <path d="M0 640 Q100 560 260 560 T560 528 T1080 470 V640 Z" fill="url(#meadow1)"/>
+      <ellipse cx="620" cy="600" rx="360" ry="66" fill="url(#lake1)"/>
+      <path d="M620 566 q-40 20 0 34 q44 14 0 34" stroke="#f4ede0" stroke-width="10" fill="none" opacity=".85"/>
+      <g transform="translate(430,470)">
+        <rect x="-9" y="18" width="18" height="26" fill="#f3ead9" stroke="#8a7a5c"/>
+        <path d="M-13 18 0 2 13 18 Z" fill="#7d3f34"/>
+        <rect x="-2.5" y="-16" width="5" height="20" fill="#f3ead9" stroke="#8a7a5c"/>
+        <path d="M-6 -16 0 -26 6 -16 Z" fill="#7d3f34"/>
+      </g>
+    </svg>
+    <div class="caption-tag">SWITZERLAND · FRANCE · ITALY · AUSTRIA</div>
+  </div>
+  <div class="pfoot">
+    <div class="fr"><span class="fs">A Journey in Four Countries</span></div>
+    <div style="display:flex;justify-content:center;gap:56px;margin-top:8px;flex-wrap:wrap">
+      <div style="max-width:170px"><div style="color:var(--gold2);font-size:16px">✦ ADVENTURE</div><div style="font-size:10.5px;opacity:.85;margin-top:4px">Epic landscapes around every turn</div></div>
+      <div style="max-width:170px"><div style="color:var(--gold2);font-size:16px">✦ GRAND TOUR</div><div style="font-size:10.5px;opacity:.85;margin-top:4px">7 destinations, one unforgettable road</div></div>
+      <div style="max-width:170px"><div style="color:var(--gold2);font-size:16px">✦ BREATHTAKING</div><div style="font-size:10.5px;opacity:.85;margin-top:4px">Moments you'll never forget</div></div>
+      <div style="max-width:170px"><div style="color:var(--gold2);font-size:16px">✦ PURE COMFORT</div><div style="font-size:10.5px;opacity:.85;margin-top:4px">Luxury pacing, family first</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================ PAGE 2 · ROUTE MAP ============================ -->
+<div class="page">
+  <div class="wrap" style="padding-bottom:16px">
+    <div class="emblem"><svg width="80" height="30" viewBox="0 0 80 30"><path d="M28 6 l6-5 6 5 M40 1 v6" stroke="#b48a4a" fill="none" stroke-width="1.4"/><path d="M8 26 24 10 34 20 44 8 58 24 72 26" stroke="#b48a4a" fill="none" stroke-width="1.4"/></svg></div>
+    <div class="kicker">ROUTE MAP</div>
+    <h1 class="display" style="font-size:70px;margin-top:10px">ALPS TO VIENNA</h1>
+    <div class="script" style="font-size:40px;margin-top:2px">Explore Four Countries, One Stop at a Time</div>
+  </div>
+  <div style="padding:0 46px">
+    <svg viewBox="0 0 990 620" style="width:100%;background:#efe8d7;border:1px solid var(--line)">
+      <defs>
+        <radialGradient id="mapglow" cx=".5" cy=".4" r=".8"><stop offset="0" stop-color="#f6f0e0"/><stop offset="1" stop-color="#e7dec7"/></radialGradient>
+      </defs>
+      <rect width="990" height="620" fill="url(#mapglow)"/>
+      <!-- decorative ridges -->
+      <g stroke="#c9bfa5" stroke-width="1" fill="none" opacity=".8">
+        <path d="M60 300 90 270 120 300 150 265 180 300"/><path d="M200 250 230 215 260 250 290 220 320 250"/>
+        <path d="M420 210 450 175 480 210 510 180 540 210"/><path d="M600 260 630 225 660 260 690 235 720 260"/>
+        <path d="M300 380 330 350 360 380 390 355 420 380"/><path d="M520 330 550 300 580 330 610 305 640 330"/>
+      </g>
+      <!-- country labels -->
+      <g font-family="Georgia,serif" font-style="italic" fill="#8d8266" font-size="17">
+        <text x="235" y="150">S w i t z e r l a n d</text>
+        <text x="60" y="470">F r a n c e</text>
+        <text x="420" y="520">I t a l y</text>
+        <text x="640" y="150">A u s t r i a</text>
+      </g>
+      <!-- route -->
+      <path d="M300 205 C 260 260, 235 290, 225 330 C 205 395, 165 415, 150 440
+               C 210 470, 300 480, 365 470 C 430 462, 470 430, 520 400
+               C 560 375, 590 330, 620 300 C 700 265, 800 245, 880 235"
+            fill="none" stroke="#24413b" stroke-width="2.6" stroke-dasharray="1 9" stroke-linecap="round"/>
+      <!-- stops -->
+      <g font-family="Montserrat,sans-serif" font-size="13" font-weight="600" fill="#22302e">
+        <g><circle cx="300" cy="205" r="13" fill="#24413b" stroke="#b48a4a" stroke-width="2"/><text x="300" y="210" fill="#f4ecd9" text-anchor="middle" font-size="12">1</text><text x="322" y="200">Zurich</text><text x="322" y="216" font-weight="400" font-size="11" fill="#6d675a">2 days · arrival</text></g>
+        <g><circle cx="225" cy="330" r="13" fill="#24413b" stroke="#b48a4a" stroke-width="2"/><text x="225" y="335" fill="#f4ecd9" text-anchor="middle" font-size="12">2</text><text x="247" y="326">Grindelwald</text><text x="247" y="342" font-weight="400" font-size="11" fill="#6d675a">3 days · Jungfrau</text></g>
+        <g><circle cx="150" cy="440" r="13" fill="#24413b" stroke="#b48a4a" stroke-width="2"/><text x="150" y="445" fill="#f4ecd9" text-anchor="middle" font-size="12">3</text><text x="172" y="436">Chamonix</text><text x="172" y="452" font-weight="400" font-size="11" fill="#6d675a">2 days · Mont Blanc</text></g>
+        <g><circle cx="365" cy="470" r="13" fill="#24413b" stroke="#b48a4a" stroke-width="2"/><text x="365" y="475" fill="#f4ecd9" text-anchor="middle" font-size="12">4</text><text x="387" y="466">Lake Como</text><text x="387" y="482" font-weight="400" font-size="11" fill="#6d675a">1 day · la dolce vita</text></g>
+        <g><circle cx="520" cy="400" r="13" fill="#24413b" stroke="#b48a4a" stroke-width="2"/><text x="520" y="405" fill="#f4ecd9" text-anchor="middle" font-size="12">5</text><text x="542" y="396">Bolzano</text><text x="542" y="412" font-weight="400" font-size="11" fill="#6d675a">2 days · Dolomites</text></g>
+        <g><circle cx="620" cy="300" r="13" fill="#24413b" stroke="#b48a4a" stroke-width="2"/><text x="620" y="305" fill="#f4ecd9" text-anchor="middle" font-size="12">6</text><text x="642" y="296">Innsbruck · Tirol</text><text x="642" y="312" font-weight="400" font-size="11" fill="#6d675a">1 day · crystal alps</text></g>
+        <g><circle cx="880" cy="235" r="13" fill="#b48a4a" stroke="#24413b" stroke-width="2"/><text x="880" y="240" fill="#fff" text-anchor="middle" font-size="12">7</text><text x="820" y="216">Vienna</text><text x="820" y="232" font-weight="400" font-size="11" fill="#6d675a">2 days · finale</text></g>
+      </g>
+      <!-- compass -->
+      <g transform="translate(925,80)" stroke="#8d8266" fill="#8d8266">
+        <circle r="26" fill="none" stroke-width="1"/><path d="M0 -22 4 0 0 22 -4 0 Z" stroke="none"/>
+        <text y="-32" text-anchor="middle" font-size="12" font-family="Georgia,serif">N</text>
+      </g>
+      <!-- plane markers -->
+      <text x="268" y="178" font-size="15">✈</text><text x="905" y="228" font-size="15">✈</text>
+    </svg>
+  </div>
+  <div class="wrap" style="padding-top:22px">
+    <div class="ph">TRIP OVERVIEW</div>
+    <div class="statbar" style="border:1px solid var(--gold)">
+      <div class="st"><div class="si">🚘</div><div class="sl">MAIN ROUTE</div><div class="sv">Alpine Grand Tour</div></div>
+      <div class="st"><div class="si">📅</div><div class="sl">RECOMMENDED</div><div class="sv">13 Days</div></div>
+      <div class="st"><div class="si">📍</div><div class="sl">TOTAL DISTANCE</div><div class="sv">≈ 1,150 km</div></div>
+      <div class="st"><div class="si">✈</div><div class="sl">START & FINISH</div><div class="sv">Zurich → Vienna</div></div>
+    </div>
+    <div class="mini-note">One-way rental car · longest single drive 4 h 45 · every hotel base chosen for “park once, walk everywhere”.</div>
+  </div>
+  <div class="pfoot"><div class="fr"><span class="ft">FAMILY TRAVEL GUIDE</span></div><div class="fs">Alps to Vienna</div></div>
+</div>
+
+<!-- ============================ PAGE 3 · WELCOME ============================ -->
+<div class="page">
+  <div class="wrap" style="padding-bottom:10px">
+    <div class="kicker">WELCOME TO</div>
+    <h1 class="display" style="font-size:72px;margin-top:8px">THE ALPS</h1>
+    <div class="script" style="font-size:40px">Lakes, Glaciers & Imperial Cities</div>
+  </div>
+  <div class="scene">
+    <svg viewBox="0 0 1080 330">
+      <defs>
+        <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8eef0"/><stop offset="1" stop-color="#efe6cf"/></linearGradient>
+        <linearGradient id="s3a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#b9c7cc"/></linearGradient>
+        <linearGradient id="s3b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#41604f"/><stop offset="1" stop-color="#27423a"/></linearGradient>
+      </defs>
+      <rect width="1080" height="330" fill="url(#sky3)"/>
+      <path d="M0 210 160 90 300 190 430 70 600 210 760 110 900 200 1010 140 1080 200 V330 H0 Z" fill="url(#s3a)"/>
+      <path d="M0 260 120 220 260 268 420 220 600 272 780 226 940 272 1080 235 V330 H0 Z" fill="url(#s3b)"/>
+      <ellipse cx="540" cy="330" rx="560" ry="52" fill="#7fa5aa"/>
+    </svg>
+  </div>
+  <div class="wrap g32">
+    <div>
+      <p style="font-size:14px;line-height:1.8;border-left:3px solid var(--gold);padding-left:16px">
+        <b>The Alps are where Europe keeps its treasures</b> — turquoise lakes under glacier walls,
+        villages that smell of fresh bread, cable cars that lift a family from café terraces to
+        eternal snow in minutes.</p>
+      <p style="font-size:13px;line-height:1.8;margin-top:14px;color:var(--ink2)">
+        This journey strings the very best of four countries into one gentle road:
+        Zurich's elegance, Grindelwald's cliffs, Mont Blanc's ice, Como's villas,
+        the Dolomites' pale towers — and a grand imperial finale in Vienna.
+        Adventure awaits around every bend, at a pace made for families.</p>
+      <div style="height:22px"></div>
+      <div class="panel">
+        <div class="ph">AT A GLANCE</div>
+        <div class="tip"><div class="ti">📍</div><div><h5>Starting Point</h5><p>Zurich — Switzerland's lakeside gateway</p></div></div>
+        <div class="tip"><div class="ti">🗓</div><div><h5>Recommended Duration</h5><p>13 days · 7 destinations</p></div></div>
+        <div class="tip"><div class="ti">🚘</div><div><h5>Best Way to Explore</h5><p>Self-drive · premium SUV or van</p></div></div>
+        <div class="tip"><div class="ti">💶</div><div><h5>Currencies</h5><p>Swiss Franc (CHF) & Euro (EUR)</p></div></div>
+        <div class="tip" style="margin-bottom:0"><div class="ti">☀️</div><div><h5>Best Time to Visit</h5><p>June – September (all lifts & passes open)</p></div></div>
+      </div>
+    </div>
+    <div>
+      <div class="panel" style="height:100%">
+        <div class="ph">WHERE YOU ARE</div>
+        <svg viewBox="0 0 380 300" style="width:100%">
+          <rect width="380" height="300" fill="#efe8d7"/>
+          <path d="M40 120 C 90 70, 180 60, 250 85 C 310 105, 350 150, 345 200 C 340 245, 280 265, 210 258 C 130 250, 60 220, 45 170 Z"
+                fill="#e3dabf" stroke="#b48a4a" stroke-width="1.4"/>
+          <g stroke="#c9bfa5" fill="none"><path d="M90 150 110 130 130 150 150 132 170 150"/><path d="M200 190 220 170 240 190 260 174 280 190"/></g>
+          <text x="190" y="60" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="15" fill="#8d8266">The Alpine Arc</text>
+          <circle cx="120" cy="120" r="7" fill="#24413b" stroke="#b48a4a" stroke-width="1.6"/>
+          <text x="120" y="104" text-anchor="middle" font-size="11.5" font-weight="600" fill="#22302e" font-family="Montserrat">Zurich</text>
+          <circle cx="315" cy="205" r="7" fill="#b48a4a" stroke="#24413b" stroke-width="1.6"/>
+          <text x="315" y="232" text-anchor="middle" font-size="11.5" font-weight="600" fill="#22302e" font-family="Montserrat">Vienna</text>
+          <path d="M127 126 C 190 170, 250 195, 307 203" stroke="#24413b" stroke-width="2" stroke-dasharray="1 8" fill="none"/>
+        </svg>
+        <p style="text-align:center;font-size:12px;margin-top:10px;color:var(--ink2)">Your adventure begins in <b>Zurich</b> and glides<br>east across the whole Alpine arc to <b>Vienna</b>.</p>
+      </div>
+    </div>
+  </div>
+  <div style="padding:0 46px 30px">
+    <div class="ph">BEFORE YOU GO</div>
+    <div class="grid3" style="grid-template-columns:repeat(5,1fr);gap:12px">
+      <div class="badge"><div class="bi">🌤</div><div class="bl" style="letter-spacing:.1em">CHECK THE WEATHER</div><p style="font-size:10.5px;margin-top:6px;color:var(--ink2)">Summit days are flexible — swap by forecast</p></div>
+      <div class="badge"><div class="bi">🛣</div><div class="bl" style="letter-spacing:.1em">VIGNETTES & TOLLS</div><p style="font-size:10.5px;margin-top:6px;color:var(--ink2)">CH + AT vignettes · Mont Blanc Tunnel ≈ €51</p></div>
+      <div class="badge"><div class="bi">🍽</div><div class="bl" style="letter-spacing:.1em">HALAL DINING</div><p style="font-size:10.5px;margin-top:6px;color:var(--ink2)">Seafood, veggie & beef tables flagged in every town</p></div>
+      <div class="badge"><div class="bi">🎫</div><div class="bl" style="letter-spacing:.1em">BOOK AHEAD</div><p style="font-size:10.5px;margin-top:6px;color:var(--ink2)">Jungfraujoch · Aiguille du Midi · Schönbrunn</p></div>
+      <div class="badge"><div class="bi">🧥</div><div class="bl" style="letter-spacing:.1em">DRESS IN LAYERS</div><p style="font-size:10.5px;margin-top:6px;color:var(--ink2)">0–5 °C at 3,800 m — even in August</p></div>
+    </div>
+  </div>
+  <div class="pfoot"><div class="fr"><span class="ft">FAMILY TRAVEL GUIDE</span></div><div class="fs">Alps to Vienna</div></div>
+</div>
+
+<!-- ============================ PAGE 4 · ITINERARY AT A GLANCE ============================ -->
+<div class="page">
+  <div class="wrap" style="padding-bottom:8px">
+    <div class="kicker">ALPS TO VIENNA</div>
+    <h1 class="display" style="font-size:78px;margin-top:8px">ITINERARY</h1>
+    <div class="script" style="font-size:44px">At a Glance</div>
+    <div class="leaf">❦</div>
+  </div>
+  <div class="wrap g32" style="padding-top:10px">
+    <div>
+      <div class="stop"><div class="n" style="background:var(--gold);border-color:var(--pine)">✈</div><div><h4>ZURICH AIRPORT</h4><p>Start your Alpine adventure — collect the car, breathe the lake air</p></div></div>
+      <div class="stop"><div class="n">1</div><div><h4>ZURICH <span class="gold-chip">2 DAYS</span></h4><p>Old-town lanes, Bahnhofstrasse, Lindt chocolate & a sunset on Uetliberg</p></div></div>
+      <div class="stop"><div class="n">2</div><div><h4>GRINDELWALD <span class="gold-chip">3 DAYS</span></h4><p>First Cliff Walk, Jungfraujoch “Top of Europe”, toboggans & glacier gorge</p></div></div>
+      <div class="stop"><div class="n">3</div><div><h4>CHAMONIX <span class="gold-chip">2 DAYS</span></h4><p>Aiguille du Midi at 3,842 m, Step into the Void & the Mer de Glace</p></div></div>
+      <div class="stop"><div class="n">4</div><div><h4>LAKE COMO <span class="gold-chip">1 DAY</span></h4><p>Villa del Balbianello, Bellagio ferries & a terrace dinner above the lake</p></div></div>
+      <div class="stop"><div class="n">5</div><div><h4>BOLZANO <span class="gold-chip">2 DAYS</span></h4><p>Ötzi the Iceman, arcaded old town & the Ritten earth pyramids</p></div></div>
+      <div class="stop"><div class="n">6</div><div><h4>INNSBRUCK · TIROL <span class="gold-chip">1 DAY</span></h4><p>Swarovski Crystal Worlds, the Golden Roof & the Nordkette cable car</p></div></div>
+      <div class="stop"><div class="n">7</div><div><h4>VIENNA <span class="gold-chip">2 DAYS</span></h4><p>Schönbrunn Palace, Kaffeehaus culture, Prater wheel & Tafelspitz finale</p></div></div>
+      <div class="stop" style="margin-bottom:0"><div class="n" style="background:var(--gold);border-color:var(--pine)">✈</div><div><h4>VIENNA AIRPORT</h4><p>Fly home with a camera full of mountains and palaces</p></div></div>
+    </div>
+    <div>
+      <div class="panel">
+        <div class="ph">TRIP OVERVIEW</div>
+        <div class="tip"><div class="ti">🚘</div><div><h5>Self-Drive Adventure</h5><p>Travel at your own pace — no drive over 4 h 45</p></div></div>
+        <div class="tip"><div class="ti">🗺</div><div><h5>Main Route</h5><p>The Alpine Grand Tour, west → east</p></div></div>
+        <div class="tip"><div class="ti">📅</div><div><h5>Recommended</h5><p>13 days · 12 nights</p></div></div>
+        <div class="tip"><div class="ti">📍</div><div><h5>Total Distance</h5><p>Around 1,150 km</p></div></div>
+        <div class="tip" style="margin-bottom:0"><div class="ti">📷</div><div><h5>Endless Scenery</h5><p>Glaciers, lakes, vineyards & imperial squares</p></div></div>
+      </div>
+      <div style="height:18px"></div>
+      <div class="scene" style="border:1px solid var(--line)">
+        <svg viewBox="0 0 460 300">
+          <defs>
+            <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e5ecee"/><stop offset="1" stop-color="#f0e7d0"/></linearGradient>
+            <linearGradient id="s4a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fafbfc"/><stop offset="1" stop-color="#bcc9ce"/></linearGradient>
+          </defs>
+          <rect width="460" height="300" fill="url(#sky4)"/>
+          <circle cx="352" cy="64" r="26" fill="#f4e3bd"/>
+          <path d="M0 170 90 70 170 160 240 60 330 170 400 110 460 170 V300 H0 Z" fill="url(#s4a)"/>
+          <path d="M0 220 80 185 180 225 300 180 400 228 460 200 V300 H0 Z" fill="#3f5c4c"/>
+          <path d="M0 300 Q 130 240 240 258 T 460 250 V300 Z" fill="#728b5e"/>
+          <path d="M40 300 C 120 280 160 262 250 258" stroke="#efe6d0" stroke-width="7" fill="none"/>
+        </svg>
+      </div>
+      <p class="accent-quote" style="margin-top:14px">“Half the journey is the road itself —<br>and this road is the Alps.”</p>
+    </div>
+  </div>
+  <div class="pfoot"><div class="fr"><span class="ft">FAMILY TRAVEL GUIDE</span></div><div class="fs">Alps to Vienna</div></div>
+</div>
+
+<!-- ============================ PAGE 5 · ZURICH ============================ -->
+<div class="page">
+  <div class="wrap" style="padding-bottom:6px">
+    <div class="kicker">ALPS TO VIENNA · STOP 1</div>
+    <h1 class="display" style="font-size:74px;margin-top:8px">ZURICH</h1>
+    <div class="script" style="font-size:38px">The Elegant Gateway</div>
+    <p style="text-align:center;font-size:13px;color:var(--ink2);max-width:640px;margin:10px auto 0;line-height:1.7">
+      Cobbled lanes, a glittering lake and Europe's most refined shopping street.<br>Two easy days to land softly before the mountains begin.</p>
+  </div>
+  <div class="scene" style="margin:14px 46px 0;border:1px solid var(--line)">
+    <svg viewBox="0 0 990 250">
+      <defs><linearGradient id="zsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9eef1"/><stop offset="1" stop-color="#f2e9d3"/></linearGradient>
+      <linearGradient id="zlake" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a7c6c9"/><stop offset="1" stop-color="#6a949b"/></linearGradient></defs>
+      <rect width="990" height="250" fill="url(#zsky)"/>
+      <path d="M0 130 120 60 240 125 360 55 480 130 600 70 720 125 840 65 990 125 V250 H0Z" fill="#cfd9dd"/>
+      <g fill="#54666b">
+        <rect x="180" y="120" width="46" height="70"/><path d="M180 120 203 92 226 120Z"/>
+        <rect x="300" y="112" width="30" height="78"/><path d="M300 112 315 84 330 112Z" fill="#7d3f34"/>
+        <rect x="560" y="118" width="40" height="72"/><path d="M560 118 580 88 600 118Z"/>
+        <rect x="700" y="124" width="26" height="66"/><path d="M700 124 713 100 726 124Z" fill="#7d3f34"/>
+        <rect x="420" y="126" width="60" height="64" fill="#66787d"/><rect x="430" y="108" width="12" height="18" fill="#66787d"/>
+      </g>
+      <rect y="190" width="990" height="60" fill="url(#zlake)"/>
+      <g stroke="#f2ead9" stroke-width="2" opacity=".7"><path d="M80 214 h60"/><path d="M300 226 h80"/><path d="M640 218 h70"/><path d="M860 228 h50"/></g>
+      <path d="M500 200 l16 -12 16 12 -16 6 Z" fill="#f5efe2" stroke="#8a7a5c"/>
+    </svg>
+    <div class="caption-tag">OLD TOWN · LAKE ZURICH · BAHNHOFSTRASSE</div>
+  </div>
+  <div style="padding:18px 46px 0">
+    <div class="statbar" style="border:1px solid var(--gold)">
+      <div class="st"><div class="si">🗓</div><div class="sl">TIME NEEDED</div><div class="sv">2 Days</div></div>
+      <div class="st"><div class="si">✈</div><div class="sl">ARRIVAL</div><div class="sv">Zurich Airport (ZRH)</div></div>
+      <div class="st"><div class="si">🚶</div><div class="sl">BEST WAY</div><div class="sv">On Foot & Tram</div></div>
+      <div class="st"><div class="si">☀️</div><div class="sl">BEST TIME</div><div class="sv">Morning old town</div></div>
+      <div class="st"><div class="si">💎</div><div class="sl">PERFECT FOR</div><div class="sv">Shopping & Lake Life</div></div>
+    </div>
+  </div>
+  <div class="wrap g32">
+    <div>
+      <div class="ph" style="justify-content:flex-start">TOP HIGHLIGHTS</div>
+      <div class="stop"><div class="n">1</div><div><h4>OLD TOWN & LINDENHOF</h4><p>Roman hilltop terrace, the painted lane of Augustinergasse & Chagall's windows in the Fraumünster</p></div></div>
+      <div class="stop"><div class="n">2</div><div><h4>BAHNHOFSTRASSE</h4><p>1.4 km of watches & maisons — finish with Luxemburgerli at Confiserie Sprüngli, Paradeplatz</p></div></div>
+      <div class="stop"><div class="n">3</div><div><h4>LINDT HOME OF CHOCOLATE</h4><p>The 9-metre chocolate fountain & tasting halls — the kids' Zurich highlight <i>(book ahead)</i></p></div></div>
+      <div class="stop"><div class="n">4</div><div><h4>LAKE CRUISE & ZÜRICHHORN</h4><p>1.5-hour ZSG round trip from Bürkliplatz, then lawns, gelato & the Chinese Garden</p></div></div>
+      <div class="stop" style="margin-bottom:0"><div class="n">5</div><div><h4>UETLIBERG SUNSET</h4><p>The city's home mountain — lake, rooftops & Alps in one golden frame</p></div></div>
+    </div>
+    <div>
+      <div class="panel">
+        <div class="ph">LOCAL TIPS</div>
+        <div class="tip"><div class="ti">🍽</div><div><h5>Halal-Safe Icon</h5><p><b>Haus Hiltl</b> — the world's oldest vegetarian restaurant (1898); huge buffet children love</p></div></div>
+        <div class="tip"><div class="ti">🐟</div><div><h5>Lakeside Lunch</h5><p>Fischerstube Zürihorn — fresh lake fish on the water</p></div></div>
+        <div class="tip"><div class="ti">☕</div><div><h5>Coffee Stop</h5><p>ViCAFE Münsterhof or Sprüngli for the classic ritual</p></div></div>
+        <div class="tip" style="margin-bottom:0"><div class="ti">🛍</div><div><h5>Sunday Note</h5><p>Shops close Sundays — plan Bahnhofstrasse for a weekday or Saturday</p></div></div>
+      </div>
+      <div style="height:16px"></div>
+      <div class="panel">
+        <div class="ph">SUGGESTED TIMELINE</div>
+        <div class="trow"><div class="tt">D1 AM</div><div class="td"><b>Old town wander</b><span>Lindenhof → Augustinergasse → Fraumünster</span></div></div>
+        <div class="trow"><div class="tt">D1 PM</div><div class="td"><b>Bahnhofstrasse & lake walk</b><span>Sprüngli stop · sunset at Bürkliplatz</span></div></div>
+        <div class="trow"><div class="tt">D1 EVE</div><div class="td"><b>Dinner at Haus Hiltl</b><span>reserve a table</span></div></div>
+        <div class="trow"><div class="tt">D2 AM</div><div class="td"><b>Lindt Home of Chocolate</b><span>timed tickets — book online</span></div></div>
+        <div class="trow"><div class="tt">D2 PM</div><div class="td"><b>Lake cruise + Zürichhorn</b><span>lunch Fischerstube</span></div></div>
+        <div class="trow" style="margin-bottom:0"><div class="tt">D2 EVE</div><div class="td"><b>Uetliberg sunset · Coco Grill dinner</b><span>rainy day: Zoo Zürich Masoala hall</span></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="pfoot"><div class="fr"><span class="ft">STOP 1 OF 7</span></div><div class="fs">Next stop — Grindelwald</div></div>
+</div>
+
+<!-- ============================ PAGE 6 · GRINDELWALD ============================ -->
+<div class="page">
+  <div class="wrap" style="padding-bottom:6px">
+    <div class="kicker">ALPS TO VIENNA · STOP 2</div>
+    <h1 class="display" style="font-size:66px;margin-top:8px">GRINDELWALD</h1>
+    <div class="script" style="font-size:38px">Heart of the Jungfrau</div>
+    <p style="text-align:center;font-size:13px;color:var(--ink2);max-width:660px;margin:10px auto 0;line-height:1.7">
+      A village at the foot of the Eiger's mile-high wall.<br>Three days of cliff walks, cog trains and Europe's highest railway station.</p>
+  </div>
+  <div class="scene" style="margin:14px 46px 0;border:1px solid var(--line)">
+    <svg viewBox="0 0 990 250">
+      <defs><linearGradient id="gsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dfe9ee"/><stop offset="1" stop-color="#eef0e2"/></linearGradient>
+      <linearGradient id="geiger" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7fafc"/><stop offset="1" stop-color="#9fb2ba"/></linearGradient></defs>
+      <rect width="990" height="250" fill="url(#gsky)"/>
+      <path d="M120 250 330 20 500 250 Z" fill="url(#geiger)"/>
+      <path d="M330 20 402 118 375 128 355 96 338 120 Z" fill="#fff" opacity=".9"/>
+      <path d="M470 250 640 60 810 250 Z" fill="#c3d0d6"/>
+      <path d="M640 60 690 130 668 138 653 112 Z" fill="#fff" opacity=".85"/>
+      <path d="M0 250 Q 250 200 500 214 T 990 206 V250 Z" fill="#6f8a58"/>
+      <g fill="#22392f"><path d="M180 216 l12 -26 12 26 z"/><path d="M760 212 l12 -26 12 26 z"/><path d="M840 220 l10 -22 10 22 z"/></g>
+      <g transform="translate(430,196)"><rect x="-10" y="8" width="20" height="16" fill="#f3ead9" stroke="#8a7a5c"/><path d="M-14 8 0 -6 14 8Z" fill="#7d3f34"/></g>
+      <g transform="translate(520,190)"><rect x="-8" y="8" width="16" height="14" fill="#f3ead9" stroke="#8a7a5c"/><path d="M-12 8 0 -4 12 8Z" fill="#7d3f34"/></g>
+      <path d="M300 250 C 340 210 420 196 470 200" stroke="#efe6d0" stroke-width="5" fill="none"/>
+      <g stroke="#5c5142" stroke-width="1.4"><line x1="580" y1="120" x2="700" y2="60"/><circle cx="620" cy="100" r="0"/></g>
+      <rect x="612" y="96" width="16" height="12" rx="2" fill="#7d3f34" stroke="#5c5142"/>
+    </svg>
+    <div class="caption-tag">EIGER · FIRST · JUNGFRAUJOCH</div>
+  </div>
+  <div style="padding:18px 46px 0">
+    <div class="statbar" style="border:1px solid var(--gold)">
+      <div class="st"><div class="si">🗓</div><div class="sl">TIME NEEDED</div><div class="sv">3 Days</div></div>
+      <div class="st"><div class="si">🚘</div><div class="sl">FROM ZURICH</div><div class="sv">1 h 30 · easy & scenic</div></div>
+      <div class="st"><div class="si">🚠</div><div class="sl">BEST WAY</div><div class="sv">Gondolas & Cog Rail</div></div>
+      <div class="st"><div class="si">☀️</div><div class="sl">BEST TIME</div><div class="sv">Jun – Sep · clear AM</div></div>
+      <div class="st"><div class="si">👨‍👩‍👧‍👦</div><div class="sl">PERFECT FOR</div><div class="sv">Families & First-Timers</div></div>
+    </div>
+  </div>
+  <div class="wrap g32">
+    <div>
+      <div class="ph" style="justify-content:flex-start">THE STOPS</div>
+      <div class="stop"><div class="n">1</div><div><h4>FIRST CLIFF WALK</h4><p>Steel walkway bolted to the cliff at 2,167 m — the signature family photo (free with the gondola)</p></div></div>
+      <div class="stop"><div class="n">2</div><div><h4>JUNGFRAUJOCH — TOP OF EUROPE</h4><p>Eiger Express + railway to 3,454 m: Ice Palace, Sphinx terrace, summer snow park. <i>Save it for the clearest day</i></p></div></div>
+      <div class="stop"><div class="n">3</div><div><h4>MÄNNLICHEN ROYAL WALK</h4><p>Pram-friendly crown viewpoint & the Lieselotte storybook trail down to Holenstein</p></div></div>
+      <div class="stop"><div class="n">4</div><div><h4>PFINGSTEGG ADVENTURE HILL</h4><p>Summer toboggan + Fly-Line above the village — the afternoon kids vote #1</p></div></div>
+      <div class="stop" style="margin-bottom:0"><div class="n">5</div><div><h4>GLACIER GORGE</h4><p>Walkways through a marble-walled canyon — light spray, big drama, 45 minutes</p></div></div>
+    </div>
+    <div>
+      <div class="panel">
+        <div class="ph">LOCAL TIPS</div>
+        <div class="tip"><div class="ti">🎫</div><div><h5>Book in Advance</h5><p>Eiger Express & Jungfraujoch sell out in summer — reserve seats online</p></div></div>
+        <div class="tip"><div class="ti">🍛</div><div><h5>Halal-Friendly</h5><p><b>Golden India</b> in the village <i>(verify certification)</i>; Avocado Bar for healthy bowls</p></div></div>
+        <div class="tip"><div class="ti">🍕</div><div><h5>Family Dinner</h5><p>Onkel Tom's Hütte — cult wood-fired pizza chalet; tiny, reserve!</p></div></div>
+        <div class="tip" style="margin-bottom:0"><div class="ti">☕</div><div><h5>Coffee Stop</h5><p>EigerBean — the village's own specialty roastery</p></div></div>
+      </div>
+      <div style="height:16px"></div>
+      <div class="panel">
+        <div class="ph">SUGGESTED TIMELINE</div>
+        <div class="trow"><div class="tt">D1</div><div class="td"><b>Arrive · First gondola</b><span>Cliff Walk → Bort playground → Barry's dinner</span></div></div>
+        <div class="trow"><div class="tt">D2</div><div class="td"><b>Jungfraujoch day</b><span>early Eiger Express · descend via Kleine Scheidegg cog rail</span></div></div>
+        <div class="trow"><div class="tt">D3</div><div class="td"><b>Männlichen AM · Pfingstegg PM</b><span>toboggan, Fly-Line & Glacier Gorge</span></div></div>
+        <div class="trow" style="margin-bottom:0"><div class="tt">RAIN</div><div class="td"><b>Trümmelbach Falls</b><span>glacier waterfalls inside the rock + Interlaken stroll</span></div></div>
+      </div>
+      <div style="height:16px"></div>
+      <div class="panel" style="background:var(--pine);color:#efe6d0;border-color:var(--pine)">
+        <div class="ph" style="color:var(--gold2)">STAY</div>
+        <p style="font-size:12.5px;text-align:center;line-height:1.6">Village centre (Dorfstrasse) for lift access,<br>or <b>Terrassenweg</b> for Eiger-view balconies.<br><span style="opacity:.8">Bergwelt Alpine Design Resort · Boutique Hotel Glacier</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="pfoot"><div class="fr"><span class="ft">STOP 2 OF 7</span></div><div class="fs">Next stop — Chamonix</div></div>
+</div>
+
+<!-- ============================ PAGE 7 · CHAMONIX ============================ -->
+<div class="page">
+  <div class="wrap" style="padding-bottom:6px">
+    <div class="kicker">ALPS TO VIENNA · STOP 3</div>
+    <h1 class="display" style="font-size:70px;margin-top:8px">CHAMONIX</h1>
+    <div class="script" style="font-size:38px">Kingdom of Mont Blanc</div>
+    <p style="text-align:center;font-size:13px;color:var(--ink2);max-width:660px;margin:10px auto 0;line-height:1.7">
+      Western Europe's highest mountain — and a glass box hanging over a kilometre of air.<br>Two days beneath the White Giant.</p>
+  </div>
+  <div class="scene" style="margin:14px 46px 0;border:1px solid var(--line)">
+    <svg viewBox="0 0 990 250">
+      <defs><linearGradient id="csky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dce6ee"/><stop offset="1" stop-color="#efe9d8"/></linearGradient>
+      <linearGradient id="cmb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#b7c6cf"/></linearGradient></defs>
+      <rect width="990" height="250" fill="url(#csky)"/>
+      <path d="M60 250 260 90 380 190 470 40 620 250 Z" fill="#a9bcc6"/>
+      <path d="M420 250 620 30 830 250 Z" fill="url(#cmb)"/>
+      <path d="M620 30 660 90 640 96 628 72 Z" fill="#fff"/>
+      <path d="M300 250 C 380 230 520 224 640 232 T 990 226 V250 Z" fill="#5d7a52"/>
+      <g stroke="#5c5142" stroke-width="1.3"><line x1="500" y1="230" x2="620" y2="60"/></g>
+      <rect x="548" y="140" width="15" height="11" rx="2" fill="#7d3f34" stroke="#5c5142"/>
+      <g transform="translate(620,52)"><rect x="-5" y="-14" width="10" height="16" fill="#8d9aa4"/><path d="M-8 -14 h16 l-8 -10 z" fill="#6d7a84"/></g>
+      <g transform="translate(200,214)"><rect x="-9" y="6" width="18" height="16" fill="#f3ead9" stroke="#8a7a5c"/><path d="M-13 6 0 -8 13 6Z" fill="#7d3f34"/></g>
+    </svg>
+    <div class="caption-tag">AIGUILLE DU MIDI · MER DE GLACE</div>
+  </div>
+  <div style="padding:18px 46px 0">
+    <div class="statbar" style="border:1px solid var(--gold)">
+      <div class="st"><div class="si">🗓</div><div class="sl">TIME NEEDED</div><div class="sv">2 Days</div></div>
+      <div class="st"><div class="si">🚘</div><div class="sl">FROM GRINDELWALD</div><div class="sv">3 h via Montreux</div></div>
+      <div class="st"><div class="si">🚠</div><div class="sl">BEST WAY</div><div class="sv">Cable Car & Rack Rail</div></div>
+      <div class="st"><div class="si">🌅</div><div class="sl">BEST TIME</div><div class="sv">First cars, clear AM</div></div>
+      <div class="st"><div class="si">📷</div><div class="sl">PERFECT FOR</div><div class="sv">Big-Mountain Drama</div></div>
+    </div>
+  </div>
+  <div class="wrap g32">
+    <div>
+      <div class="ph" style="justify-content:flex-start">THE STOPS</div>
+      <div class="stop"><div class="n">1</div><div><h4>AIGUILLE DU MIDI — 3,842 m</h4><p>20 minutes from town to the ice world facing Mont Blanc. Cold even in August — jackets for everyone</p></div></div>
+      <div class="stop"><div class="n">2</div><div><h4>STEP INTO THE VOID</h4><p>A glass box over 1,000 m of air — courage photo of the trip <i>(free with ticket)</i></p></div></div>
+      <div class="stop"><div class="n">3</div><div><h4>MONTENVERS & MER DE GLACE</h4><p>Scarlet rack-train to France's greatest glacier & the re-carved ice cave</p></div></div>
+      <div class="stop"><div class="n">4</div><div><h4>CHAMONIX TOWN & PATISSERIES</h4><p>Pedestrian centre under the needles — éclairs at Aux Petits Gourmands, cakes at Chalet 4810</p></div></div>
+      <div class="stop" style="margin-bottom:0"><div class="n">5</div><div><h4>PARADIS DES PRAZ</h4><p>Forest playground by a glacier stream — the easy afternoon if the family needs air, not altitude</p></div></div>
+    </div>
+    <div>
+      <div class="panel">
+        <div class="ph">LOCAL TIPS</div>
+        <div class="tip"><div class="ti">⏰</div><div><h5>Beat the Clouds</h5><p>Book the first cable cars — summits cloud over after noon</p></div></div>
+        <div class="tip"><div class="ti">👶</div><div><h5>Altitude with Kids</h5><p>Move slowly at 3,842 m, drink water, keep the visit under 2 hours</p></div></div>
+        <div class="tip"><div class="ti">🍽</div><div><h5>Halal-Conscious Tables</h5><p>Le Cap Horn (seafood-leaning) · Casa Valerio (Italian) · Munchie (Asian)</p></div></div>
+        <div class="tip" style="margin-bottom:0"><div class="ti">💆</div><div><h5>Weather Plan B</h5><p>QC Terme alpine spa <i>(check family hours)</i> or Parc de Merlet wildlife park</p></div></div>
+      </div>
+      <div style="height:16px"></div>
+      <div class="panel">
+        <div class="ph">SUGGESTED TIMELINE</div>
+        <div class="trow"><div class="tt">D1</div><div class="td"><b>Lakes drive from Grindelwald</b><span>Spiez & Montreux stops · town stroll · Chalet 4810</span></div></div>
+        <div class="trow"><div class="tt">D2 AM</div><div class="td"><b>Aiguille du Midi + the Void</b><span>lunch on the Plan de l'Aiguille terrace</span></div></div>
+        <div class="trow"><div class="tt">D2 PM</div><div class="td"><b>Montenvers & ice cave</b><span>patisserie stop · dinner Casa Valerio</span></div></div>
+        <div class="trow" style="margin-bottom:0"><div class="tt">EASY</div><div class="td"><b>Swap in the spa or playground</b><span>the mountain isn't going anywhere</span></div></div>
+      </div>
+      <div style="height:16px"></div>
+      <div class="panel" style="background:var(--pine);color:#efe6d0;border-color:var(--pine)">
+        <div class="ph" style="color:var(--gold2)">STAY</div>
+        <p style="font-size:12.5px;text-align:center;line-height:1.6">Town centre near the Aiguille du Midi station —<br><b>Hôtel Mont-Blanc</b> or Les Chalets de Philippe<br><span style="opacity:.8">walk to lifts, patisseries & dinner</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="pfoot"><div class="fr"><span class="ft">STOP 3 OF 7</span></div><div class="fs">Next stop — Lake Como</div></div>
+</div>
+
+<!-- ============================ PAGE 8 · LAKE COMO ============================ -->
+<div class="page">
+  <div class="wrap" style="padding-bottom:6px">
+    <div class="kicker">ALPS TO VIENNA · STOP 4</div>
+    <h1 class="display" style="font-size:68px;margin-top:8px">LAKE COMO</h1>
+    <div class="script" style="font-size:40px">One Perfect Lake Day</div>
+    <p style="text-align:center;font-size:13px;color:var(--ink2);max-width:640px;margin:10px auto 0;line-height:1.7">
+      Through the Mont Blanc Tunnel and into Italy — cypress gardens, wooden boats<br>and villas the movies borrow when they need pure romance.</p>
+  </div>
+  <div class="scene" style="margin:14px 46px 0;border:1px solid var(--line)">
+    <svg viewBox="0 0 990 250">
+      <defs><linearGradient id="losky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3e8cf"/><stop offset="1" stop-color="#efdfc0"/></linearGradient>
+      <linearGradient id="lolake" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fb6b4"/><stop offset="1" stop-color="#4f7f83"/></linearGradient></defs>
+      <rect width="990" height="250" fill="url(#losky)"/>
+      <circle cx="180" cy="70" r="34" fill="#f2ddae"/>
+      <path d="M0 150 150 80 320 150 480 90 640 150 800 95 990 150 V250 H0Z" fill="#9fae94" opacity=".8"/>
+      <rect y="150" width="990" height="100" fill="url(#lolake)"/>
+      <g fill="#3c5a45">
+        <path d="M120 150 c0 -30 10 -52 10 -52 s10 22 10 52 z"/>
+        <path d="M160 150 c0 -26 9 -46 9 -46 s9 20 9 46 z"/>
+        <path d="M780 150 c0 -30 10 -52 10 -52 s10 22 10 52 z"/>
+        <path d="M820 150 c0 -24 8 -42 8 -42 s8 18 8 42 z"/>
+      </g>
+      <g transform="translate(300,120)"><rect x="-40" y="6" width="80" height="26" fill="#f0e2c8" stroke="#a4906c"/><rect x="-30" y="-10" width="60" height="16" fill="#e7d6b4" stroke="#a4906c"/><g fill="#7d3f34"><rect x="-40" y="0" width="80" height="6"/></g></g>
+      <g transform="translate(560,196)"><path d="M-34 8 Q0 22 34 8 L26 0 H-26 Z" fill="#7a5b3a"/><rect x="-3" y="-16" width="4" height="16" fill="#4c3a24"/><path d="M1 -16 L20 -4 1 -4 Z" fill="#f2ead9"/></g>
+      <g stroke="#f2ead9" stroke-width="1.6" opacity=".6"><path d="M100 190 h70"/><path d="M420 214 h90"/><path d="M700 200 h80"/></g>
+    </svg>
+    <div class="caption-tag">BALBIANELLO · BELLAGIO · VARENNA</div>
+  </div>
+  <div style="padding:18px 46px 0">
+    <div class="statbar" style="border:1px solid var(--gold)">
+      <div class="st"><div class="si">🗓</div><div class="sl">TIME NEEDED</div><div class="sv">1 Day (+ arrival eve)</div></div>
+      <div class="st"><div class="si">🚘</div><div class="sl">FROM CHAMONIX</div><div class="sv">3 h 15 · Mont Blanc Tunnel</div></div>
+      <div class="st"><div class="si">⛴</div><div class="sl">BEST WAY</div><div class="sv">Mid-Lake Ferries</div></div>
+      <div class="st"><div class="si">🌇</div><div class="sl">BEST TIME</div><div class="sv">Golden hour on water</div></div>
+      <div class="st"><div class="si">💛</div><div class="sl">PERFECT FOR</div><div class="sv">Romance & La Dolce Vita</div></div>
+    </div>
+  </div>
+  <div class="wrap g32">
+    <div>
+      <div class="ph" style="justify-content:flex-start">THE STOPS</div>
+      <div class="stop"><div class="n">1</div><div><h4>VILLA DEL BALBIANELLO</h4><p>Cinema's favourite lake terrace (007 & Star Wars) — book garden tickets; closed some weekdays <i>(verify)</i></p></div></div>
+      <div class="stop"><div class="n">2</div><div><h4>BELLAGIO OLD TOWN</h4><p>The “pearl of the lake” — climb Salita Serbelloni's flower-hung staircase at golden hour</p></div></div>
+      <div class="stop"><div class="n">3</div><div><h4>VARENNA MORNING</h4><p>Rainbow houses & the Lovers' Walk boardwalk — go by 9 AM, before the day-trippers</p></div></div>
+      <div class="stop"><div class="n">4</div><div><h4>VILLA MONASTERO GARDENS</h4><p>A kilometre of lakefront botanical terraces in Varenna</p></div></div>
+      <div class="stop" style="margin-bottom:0"><div class="n">5</div><div><h4>GELATO RITUAL</h4><p>Gelateria del Borgo in Bellagio — one scoop per ferry, family rule</p></div></div>
+    </div>
+    <div>
+      <div class="panel">
+        <div class="ph">LOCAL TIPS</div>
+        <div class="tip"><div class="ti">🍽</div><div><h5>Terrace Dinner</h5><p><b>Al Veluu</b>, above Tremezzo — sunset tables; fish tasting excellent (book!)</p></div></div>
+        <div class="tip"><div class="ti">🚗</div><div><h5>Lake Road</h5><p>The last 30 min are narrow & slow — arrive relaxed, park at the hotel, switch to boats</p></div></div>
+        <div class="tip"><div class="ti">🥖</div><div><h5>Lunch Stop En Route</h5><p>Aosta's Roman old town — arches, easy parking, 1 hour</p></div></div>
+        <div class="tip" style="margin-bottom:0"><div class="ti">🧣</div><div><h5>Como Silk</h5><p>Bellagio's silk shops — scarves from the historic silk district</p></div></div>
+      </div>
+      <div style="height:16px"></div>
+      <div class="panel">
+        <div class="ph">SUGGESTED TIMELINE</div>
+        <div class="trow"><div class="tt">09:00</div><div class="td"><b>Leave Chamonix</b><span>tunnel ≈ €51 · Aosta stop 11:30</span></div></div>
+        <div class="trow"><div class="tt">15:00</div><div class="td"><b>Villa del Balbianello</b><span>pre-booked slot</span></div></div>
+        <div class="trow"><div class="tt">17:30</div><div class="td"><b>Ferry to Bellagio</b><span>staircase stroll + gelato</span></div></div>
+        <div class="trow"><div class="tt">20:00</div><div class="td"><b>Dinner Al Veluu</b><span>sunset over the lake</span></div></div>
+        <div class="trow" style="margin-bottom:0"><div class="tt">+1 AM</div><div class="td"><b>Varenna before the drive</b><span>then Sirmione lunch en route to Bolzano</span></div></div>
+      </div>
+      <div style="height:16px"></div>
+      <div class="panel" style="background:var(--pine);color:#efe6d0;border-color:var(--pine)">
+        <div class="ph" style="color:var(--gold2)">STAY</div>
+        <p style="font-size:12.5px;text-align:center;line-height:1.6">Central lake — Tremezzina / Cadenabbia:<br><b>Grand Hotel Tremezzo</b> (floating pool, kids welcome)<br><span style="opacity:.8">heart of the ferry triangle — zero backtracking</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="pfoot"><div class="fr"><span class="ft">STOP 4 OF 7</span></div><div class="fs">Next stop — Bolzano</div></div>
+</div>
+
+<!-- ============================ PAGE 9 · BOLZANO ============================ -->
+<div class="page">
+  <div class="wrap" style="padding-bottom:6px">
+    <div class="kicker">ALPS TO VIENNA · STOP 5</div>
+    <h1 class="display" style="font-size:72px;margin-top:8px">BOLZANO</h1>
+    <div class="script" style="font-size:38px">Gateway to the Dolomites</div>
+    <p style="text-align:center;font-size:13px;color:var(--ink2);max-width:660px;margin:10px auto 0;line-height:1.7">
+      Italy with an Austrian accent — arcaded lanes, a 5,300-year-old iceman,<br>and a sunny plateau of earth pyramids reached by cable car.</p>
+  </div>
+  <div class="scene" style="margin:14px 46px 0;border:1px solid var(--line)">
+    <svg viewBox="0 0 990 250">
+      <defs><linearGradient id="bsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f2e5cd"/><stop offset="1" stop-color="#eadfc4"/></linearGradient>
+      <linearGradient id="bdolo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f2d8c0"/><stop offset="1" stop-color="#c8a48c"/></linearGradient></defs>
+      <rect width="990" height="250" fill="url(#bsky)"/>
+      <g fill="url(#bdolo)">
+        <path d="M80 250 130 70 160 130 190 60 240 250Z"/><path d="M240 250 300 90 330 150 370 80 420 250Z"/>
+        <path d="M600 250 660 60 690 140 730 70 790 250Z"/><path d="M800 250 850 110 880 160 910 100 950 250Z"/>
+      </g>
+      <path d="M0 250 Q 250 205 500 218 T 990 210 V250Z" fill="#7c9257"/>
+      <g fill="#5f7a43"><path d="M120 226 q10 -18 20 0 z"/><path d="M160 230 q10 -18 20 0 z"/><path d="M700 224 q10 -18 20 0 z"/><path d="M745 230 q10 -18 20 0 z"/></g>
+      <g transform="translate(470,190)">
+        <rect x="-30" y="10" width="60" height="26" fill="#f3ead9" stroke="#8a7a5c"/>
+        <path d="M-34 10 h68 l-10 -12 h-48 Z" fill="#8a5a40"/>
+        <rect x="-4" y="-26" width="8" height="36" fill="#f3ead9" stroke="#8a7a5c"/>
+        <path d="M-8 -26 0 -40 8 -26Z" fill="#7d3f34"/>
+      </g>
+      <g stroke="#5c5142" stroke-width="1.2"><line x1="540" y1="210" x2="660" y2="120"/></g>
+      <rect x="592" y="160" width="14" height="10" rx="2" fill="#7d3f34" stroke="#5c5142"/>
+      <g fill="#caa06a"><path d="M320 220 l6 -26 6 26 z"/><path d="M340 224 l5 -20 5 20 z"/><circle cx="326" cy="192" r="3.4" fill="#8d7048"/><circle cx="345" cy="202" r="2.8" fill="#8d7048"/></g>
+    </svg>
+    <div class="caption-tag">ÖTZI · WALTHERPLATZ · RITTEN PLATEAU</div>
+  </div>
+  <div style="padding:18px 46px 0">
+    <div class="statbar" style="border:1px solid var(--gold)">
+      <div class="st"><div class="si">🗓</div><div class="sl">TIME NEEDED</div><div class="sv">2 Days</div></div>
+      <div class="st"><div class="si">🚘</div><div class="sl">FROM COMO</div><div class="sv">3 h 30 · Sirmione stop</div></div>
+      <div class="st"><div class="si">🚠</div><div class="sl">BEST WAY</div><div class="sv">On Foot + Ritten Cable Car</div></div>
+      <div class="st"><div class="si">🛍</div><div class="sl">MARKET DAY</div><div class="sv">Mon–Sat (closed Sun)</div></div>
+      <div class="st"><div class="si">🏔</div><div class="sl">PERFECT FOR</div><div class="sv">Culture + Gentle Mountain</div></div>
+    </div>
+  </div>
+  <div class="wrap g32">
+    <div>
+      <div class="ph" style="justify-content:flex-start">THE STOPS</div>
+      <div class="stop"><div class="n">1</div><div><h4>ÖTZI — THE ICEMAN</h4><p>The 5,300-year-old mummy at the Archaeology Museum — kids are riveted <i>(book a timed slot)</i></p></div></div>
+      <div class="stop"><div class="n">2</div><div><h4>PIAZZA WALTHER & THE ARCADES</h4><p>The city's living room, the mosaic-roofed Duomo & 12th-century Via dei Portici boutiques</p></div></div>
+      <div class="stop"><div class="n">3</div><div><h4>PIAZZA DELLE ERBE MARKET</h4><p>Fruit, alpine cheese & speck stalls trading since 1295 — graze your way through</p></div></div>
+      <div class="stop"><div class="n">4</div><div><h4>RITTEN CABLE CAR & HERITAGE TRAIN</h4><p>12 minutes above the city, then 1907 wooden carriages across the sunny plateau</p></div></div>
+      <div class="stop" style="margin-bottom:0"><div class="n">5</div><div><h4>EARTH PYRAMIDS</h4><p>Surreal clay towers balancing boulder caps — easy 30-min trail from Collalbo</p></div></div>
+    </div>
+    <div>
+      <div class="panel">
+        <div class="ph">LOCAL TIPS</div>
+        <div class="tip"><div class="ti">🍽</div><div><h5>Dinner Picks</h5><p><b>Zur Kaiserkron</b> (refined) & <b>Wirtshaus Vögele</b> (Bib Gourmand) — order beef Gröstl & Schlutzkrapfen; menus list pork, ask staff</p></div></div>
+        <div class="tip"><div class="ti">☕</div><div><h5>Coffee & Wafers</h5><p>Laboratorio Espresso for specialty coffee · Loacker Café on the square</p></div></div>
+        <div class="tip"><div class="ti">🚗</div><div><h5>ZTL Warning</h5><p>Old town is a camera-controlled traffic zone — enter only on your hotel's route</p></div></div>
+        <div class="tip" style="margin-bottom:0"><div class="ti">🌧</div><div><h5>Rainy Plan</h5><p>Runkelstein “Painted Castle” — Europe's largest medieval fresco cycle</p></div></div>
+      </div>
+      <div style="height:16px"></div>
+      <div class="panel">
+        <div class="ph">SUGGESTED TIMELINE</div>
+        <div class="trow"><div class="tt">D1 PM</div><div class="td"><b>Arrive via Sirmione</b><span>castle & lunch on Lake Garda · evening passeggiata</span></div></div>
+        <div class="trow"><div class="tt">D2 AM</div><div class="td"><b>Ötzi + market + arcades</b><span>timed museum entry 9:30</span></div></div>
+        <div class="trow"><div class="tt">D2 PM</div><div class="td"><b>Ritten plateau</b><span>cable car → train → pyramids walk</span></div></div>
+        <div class="trow" style="margin-bottom:0"><div class="tt">EVE</div><div class="td"><b>Wirtshaus Vögele dinner</b><span>reserve a table</span></div></div>
+      </div>
+      <div style="height:16px"></div>
+      <div class="panel" style="background:var(--pine);color:#efe6d0;border-color:var(--pine)">
+        <div class="ph" style="color:var(--gold2)">STAY</div>
+        <p style="font-size:12.5px;text-align:center;line-height:1.6">Old town by <b>Piazza Walther</b> —<br>Parkhotel Laurin or rooms on the square<br><span style="opacity:.8">restaurants & museum at the door; hotel garage essential</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="pfoot"><div class="fr"><span class="ft">STOP 5 OF 7</span></div><div class="fs">Next stop — Tirol</div></div>
+</div>
+
+<!-- ============================ PAGE 10 · TIROL ============================ -->
+<div class="page">
+  <div class="wrap" style="padding-bottom:6px">
+    <div class="kicker">ALPS TO VIENNA · STOP 6</div>
+    <h1 class="display" style="font-size:66px;margin-top:8px">INNSBRUCK · TIROL</h1>
+    <div class="script" style="font-size:38px">Crystal & Imperial Alps</div>
+    <p style="text-align:center;font-size:13px;color:var(--ink2);max-width:660px;margin:10px auto 0;line-height:1.7">
+      Over the easy Brenner Pass into Austria — a crystal wonderland for the kids,<br>a golden roof for the album, and a cable car straight out of the old town.</p>
+  </div>
+  <div class="scene" style="margin:14px 46px 0;border:1px solid var(--line)">
+    <svg viewBox="0 0 990 250">
+      <defs><linearGradient id="tsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e2eaee"/><stop offset="1" stop-color="#f0e8d4"/></linearGradient></defs>
+      <rect width="990" height="250" fill="url(#tsky)"/>
+      <path d="M0 160 140 60 300 150 470 55 640 160 800 75 990 150 V250 H0Z" fill="#c6d2d8"/>
+      <path d="M140 60 190 120 168 128 152 100Z" fill="#fff" opacity=".9"/>
+      <path d="M470 55 520 118 498 126 482 98Z" fill="#fff" opacity=".9"/>
+      <path d="M0 250 Q 250 208 500 220 T 990 212 V250Z" fill="#69855c"/>
+      <g transform="translate(430,178)">
+        <rect x="-52" y="14" width="104" height="34" fill="#f3ead9" stroke="#8a7a5c"/>
+        <path d="M-30 14 v-22 h60 v22" fill="#e7d8b8" stroke="#8a7a5c"/>
+        <path d="M-34 -8 h68 l-6 -10 h-56 Z" fill="#c9992e" stroke="#a67b1e"/>
+        <g fill="#8a7a5c"><rect x="-20" y="0" width="9" height="9"/><rect x="-2" y="0" width="9" height="9"/><rect x="14" y="0" width="9" height="9"/></g>
+      </g>
+      <g transform="translate(700,196)">
+        <circle r="26" fill="#bfd3d8" stroke="#7f989e" stroke-width="2"/>
+        <g stroke="#7f989e" stroke-width="1.6"><line x1="-26" y1="0" x2="26" y2="0"/><line x1="0" y1="-26" x2="0" y2="26"/><line x1="-18" y1="-18" x2="18" y2="18"/><line x1="-18" y1="18" x2="18" y2="-18"/></g>
+      </g>
+      <g stroke="#5c5142" stroke-width="1.2"><line x1="240" y1="210" x2="330" y2="90"/></g>
+      <rect x="278" y="146" width="14" height="10" rx="2" fill="#7d3f34" stroke="#5c5142"/>
+    </svg>
+    <div class="caption-tag">SWAROVSKI · GOLDEN ROOF · NORDKETTE</div>
+  </div>
+  <div style="padding:18px 46px 0">
+    <div class="statbar" style="border:1px solid var(--gold)">
+      <div class="st"><div class="si">🗓</div><div class="sl">TIME NEEDED</div><div class="sv">1 Day</div></div>
+      <div class="st"><div class="si">🚘</div><div class="sl">FROM BOLZANO</div><div class="sv">1 h 45 · Brenner Pass</div></div>
+      <div class="st"><div class="si">🎟</div><div class="sl">MUST BOOK</div><div class="sv">Swarovski Kristallwelten</div></div>
+      <div class="st"><div class="si">🌤</div><div class="sl">IF CLEAR</div><div class="sv">Nordkette to 2,300 m</div></div>
+      <div class="st"><div class="si">👑</div><div class="sl">PERFECT FOR</div><div class="sv">Kids + Old-Town Charm</div></div>
+    </div>
+  </div>
+  <div class="wrap g32">
+    <div>
+      <div class="ph" style="justify-content:flex-start">THE STOPS</div>
+      <div class="stop"><div class="n">1</div><div><h4>STERZING / VIPITENO</h4><p>Pastel Tyrolean main street just over the pass — the perfect coffee break (45 min)</p></div></div>
+      <div class="stop"><div class="n">2</div><div><h4>SWAROVSKI KRISTALLWELTEN</h4><p>Crystal Chambers of Wonder + a world-class playground tower — kids need two full hours</p></div></div>
+      <div class="stop"><div class="n">3</div><div><h4>GOLDEN ROOF & OLD TOWN</h4><p>Innsbruck's 2,657 gilded shingles and the medieval lanes beneath the mountain wall</p></div></div>
+      <div class="stop"><div class="n">4</div><div><h4>NORDKETTE CABLE CAR</h4><p>City to 2,300 m Seegrube in 25 minutes — only on a clear afternoon <i>(check last descent)</i></p></div></div>
+      <div class="stop" style="margin-bottom:0"><div class="n">5</div><div><h4>CAFÉ MUNDING (1803)</h4><p>Tyrol's oldest confectionery — Innsbrucker Torte before dinner</p></div></div>
+    </div>
+    <div>
+      <div class="panel">
+        <div class="ph">LOCAL TIPS</div>
+        <div class="tip"><div class="ti">🛣</div><div><h5>Vignette First</h5><p>Buy the Austrian digital vignette online before Brenner (+ small Brenner-section toll)</p></div></div>
+        <div class="tip"><div class="ti">🍽</div><div><h5>Historic Dinner</h5><p><b>Gasthof Weisses Rössl</b> (1590) — veal & beef classics; closed Sundays; pork on menu, ask staff</p></div></div>
+        <div class="tip"><div class="ti">🥨</div><div><h5>Lunch Idea</h5><p>Daniels Café at Kristallwelten — Snøhetta-designed, macarons for the road</p></div></div>
+        <div class="tip" style="margin-bottom:0"><div class="ti">🅿️</div><div><h5>Parking</h5><p>Altstadt / Congress garage — the whole evening is walkable from there</p></div></div>
+      </div>
+      <div style="height:16px"></div>
+      <div class="panel">
+        <div class="ph">SUGGESTED TIMELINE</div>
+        <div class="trow"><div class="tt">09:15</div><div class="td"><b>Leave Bolzano</b><span>Brenner Pass — the scenic easy crossing</span></div></div>
+        <div class="trow"><div class="tt">10:00</div><div class="td"><b>Sterzing coffee stop</b><span>2 min off the A22</span></div></div>
+        <div class="trow"><div class="tt">11:30</div><div class="td"><b>Swarovski Kristallwelten</b><span>booked slot + lunch at Daniels</span></div></div>
+        <div class="trow"><div class="tt">15:00</div><div class="td"><b>Golden Roof old town</b><span>then Nordkette if the sky is clear</span></div></div>
+        <div class="trow" style="margin-bottom:0"><div class="tt">19:30</div><div class="td"><b>Dinner Weisses Rössl</b><span>reserve ahead</span></div></div>
+      </div>
+      <div style="height:16px"></div>
+      <div class="panel" style="background:var(--pine);color:#efe6d0;border-color:var(--pine)">
+        <div class="ph" style="color:var(--gold2)">STAY</div>
+        <p style="font-size:12.5px;text-align:center;line-height:1.6">One night in the <b>Altstadt</b> — Golden Roof quarter<br><span style="opacity:.8">old town + cable car + cafés without moving the car</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="pfoot"><div class="fr"><span class="ft">STOP 6 OF 7</span></div><div class="fs">Next stop — Vienna</div></div>
+</div>
+
+<!-- ============================ PAGE 11 · VIENNA ============================ -->
+<div class="page">
+  <div class="wrap" style="padding-bottom:6px">
+    <div class="kicker">ALPS TO VIENNA · STOP 7</div>
+    <h1 class="display" style="font-size:76px;margin-top:8px">VIENNA</h1>
+    <div class="script" style="font-size:42px">The Imperial Finale</div>
+    <p style="text-align:center;font-size:13px;color:var(--ink2);max-width:660px;margin:10px auto 0;line-height:1.7">
+      End your Alpine adventure in the city of palaces — Schönbrunn's gardens, Kaffeehaus salons,<br>a giant Ferris wheel at dusk and one perfect plate of Tafelspitz.</p>
+  </div>
+  <div class="scene" style="margin:14px 46px 0;border:1px solid var(--line)">
+    <svg viewBox="0 0 990 250">
+      <defs><linearGradient id="vsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1e2c4"/><stop offset="1" stop-color="#e8d2a8"/></linearGradient></defs>
+      <rect width="990" height="250" fill="url(#vsky)"/>
+      <circle cx="150" cy="80" r="36" fill="#f4dfae"/>
+      <!-- palace -->
+      <g transform="translate(420,150)">
+        <rect x="-190" y="20" width="380" height="60" fill="#f0e3c2" stroke="#a4906c"/>
+        <rect x="-60" y="-6" width="120" height="86" fill="#ead9b2" stroke="#a4906c"/>
+        <path d="M-60 -6 h120 l-12 -18 h-96 Z" fill="#cbb478"/>
+        <g fill="#8a7a5c"><rect x="-160" y="38" width="12" height="22"/><rect x="-130" y="38" width="12" height="22"/><rect x="-100" y="38" width="12" height="22"/><rect x="88" y="38" width="12" height="22"/><rect x="118" y="38" width="12" height="22"/><rect x="148" y="38" width="12" height="22"/><rect x="-30" y="18" width="12" height="26"/><rect x="0" y="18" width="12" height="26"/><rect x="18" y="18" width="12" height="26"/></g>
+        <path d="M-4 -34 4 -34 0 -46 Z" fill="#b48a4a"/><rect x="-2" y="-34" width="4" height="10" fill="#8a7a5c"/>
+      </g>
+      <!-- ferris wheel -->
+      <g transform="translate(830,140)">
+        <circle r="58" fill="none" stroke="#7a6a4e" stroke-width="3"/>
+        <g stroke="#7a6a4e" stroke-width="1.6"><line x1="-58" y1="0" x2="58" y2="0"/><line x1="0" y1="-58" x2="0" y2="58"/><line x1="-41" y1="-41" x2="41" y2="41"/><line x1="-41" y1="41" x2="41" y2="-41"/></g>
+        <g fill="#7d3f34"><rect x="-64" y="-6" width="11" height="8" rx="2"/><rect x="53" y="-6" width="11" height="8" rx="2"/><rect x="-6" y="-66" width="11" height="8" rx="2"/><rect x="-6" y="58" width="11" height="8" rx="2"/></g>
+        <path d="M-30 96 0 58 30 96" stroke="#7a6a4e" stroke-width="3" fill="none"/>
+      </g>
+      <!-- cathedral -->
+      <g transform="translate(120,160)">
+        <rect x="-26" y="20" width="52" height="60" fill="#e7d8b8" stroke="#a4906c"/>
+        <path d="M-6 20 v-56 l12 -18 12 18 v56 Z" transform="translate(-12,0)" fill="#ded0af" stroke="#a4906c"/>
+        <g fill="#5d7a52"><path d="M-26 20 h52 l-26 -18 Z"/></g>
+      </g>
+      <rect y="230" width="990" height="20" fill="#b7a06c"/>
+    </svg>
+    <div class="caption-tag">SCHÖNBRUNN · STEPHANSDOM · PRATER</div>
+  </div>
+  <div style="padding:18px 46px 0">
+    <div class="statbar" style="border:1px solid var(--gold)">
+      <div class="st"><div class="si">🗓</div><div class="sl">TIME NEEDED</div><div class="sv">2 Days</div></div>
+      <div class="st"><div class="si">🚘</div><div class="sl">FROM INNSBRUCK</div><div class="sv">4 h 45 · Mondsee stop</div></div>
+      <div class="st"><div class="si">🚶</div><div class="sl">BEST WAY</div><div class="sv">On Foot — car parked</div></div>
+      <div class="st"><div class="si">🎟</div><div class="sl">MUST BOOK</div><div class="sv">Schönbrunn timed entry</div></div>
+      <div class="st"><div class="si">👑</div><div class="sl">PERFECT FOR</div><div class="sv">The Grand Finale</div></div>
+    </div>
+  </div>
+  <div class="wrap g32">
+    <div>
+      <div class="ph" style="justify-content:flex-start">THE STOPS</div>
+      <div class="stop"><div class="n">1</div><div><h4>SCHÖNBRUNN & THE GLORIETTE</h4><p>The Habsburg summer palace — Grand Tour inside, then the hilltop Gloriette panorama</p></div></div>
+      <div class="stop"><div class="n">2</div><div><h4>ST. STEPHEN'S CATHEDRAL</h4><p>The mosaic roof over the old city — climb the South Tower if legs allow (343 steps)</p></div></div>
+      <div class="stop"><div class="n">3</div><div><h4>KAFFEEHAUS RITUAL</h4><p>Demel's cake theatre on Kohlmarkt & the Original Sacher-Torte by the Opera</p></div></div>
+      <div class="stop"><div class="n">4</div><div><h4>NATIONAL LIBRARY STATE HALL</h4><p>The world's most beautiful baroque library — 30 golden minutes</p></div></div>
+      <div class="stop" style="margin-bottom:0"><div class="n">5</div><div><h4>PRATER RIESENRAD AT DUSK</h4><p>The 1897 giant wheel — city lights from a wooden cabin</p></div></div>
+    </div>
+    <div>
+      <div class="panel">
+        <div class="ph">LOCAL TIPS</div>
+        <div class="tip"><div class="ti">🍽</div><div><h5>Halal-Comfortable</h5><p><b>NENI am Naschmarkt</b> — hummus, shakshuka & lamb kebab, family sharing style</p></div></div>
+        <div class="tip"><div class="ti">🥩</div><div><h5>The Farewell Dinner</h5><p><b>Plachutta Wollzeile</b> — Vienna's all-beef Tafelspitz temple; book 1–2 weeks ahead</p></div></div>
+        <div class="tip"><div class="ti">☕</div><div><h5>Café Central Note</h5><p>Closed for renovation from 16 Mar 2026 — pop-up “Decentral” at Palais Harrach <i>(verify)</i></p></div></div>
+        <div class="tip" style="margin-bottom:0"><div class="ti">🛍</div><div><h5>Golden U Shopping</h5><p>Kärntner Strasse → Graben → Kohlmarkt; closed Sundays</p></div></div>
+      </div>
+      <div style="height:16px"></div>
+      <div class="panel">
+        <div class="ph">SUGGESTED TIMELINE</div>
+        <div class="trow"><div class="tt">D1</div><div class="td"><b>Drive + first evening</b><span>Mondsee stop · Stephansdom · Demel · NENI dinner</span></div></div>
+        <div class="trow"><div class="tt">D2 AM</div><div class="td"><b>Schönbrunn + Gloriette</b><span>timed tickets · zoo option for kids</span></div></div>
+        <div class="trow"><div class="tt">D2 PM</div><div class="td"><b>State Hall → Prater wheel</b><span>Sacher-Torte at 18:30</span></div></div>
+        <div class="trow" style="margin-bottom:0"><div class="tt">20:00</div><div class="td"><b>Plachutta farewell</b><span>the perfect last plate</span></div></div>
+      </div>
+      <div style="height:16px"></div>
+      <div class="panel" style="background:var(--pine);color:#efe6d0;border-color:var(--pine)">
+        <div class="ph" style="color:var(--gold2)">STAY</div>
+        <p style="font-size:12.5px;text-align:center;line-height:1.6">1st District — <b>Stephansplatz / Kärntner Strasse</b><br><span style="opacity:.8">cathedral, cafés & shopping on foot; car garaged until the airport</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="pfoot"><div class="fr"><span class="ft">STOP 7 OF 7</span></div><div class="fs">The Grand Finale</div></div>
+</div>
+
+<!-- ============================ PAGE 12 · EXTEND / FAREWELL ============================ -->
+<div class="page">
+  <div class="wrap" style="padding-bottom:10px">
+    <div class="kicker">ALPS TO VIENNA</div>
+    <h1 class="display" style="font-size:58px;margin-top:8px">EXTEND YOUR ADVENTURE</h1>
+    <div class="script" style="font-size:40px">Continue to Salzburg & Hallstatt</div>
+    <p style="text-align:center;font-size:13px;color:var(--ink2);max-width:640px;margin:10px auto 0;line-height:1.7">
+      Your journey doesn't have to end in Vienna. The Salzkammergut's lake villages —<br>Mozart's Salzburg and postcard Hallstatt — sit right on the road you already drove.</p>
+  </div>
+  <div class="scene" style="margin:6px 46px 0;border:1px solid var(--line)">
+    <svg viewBox="0 0 990 240">
+      <defs><linearGradient id="esky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dde8ec"/><stop offset="1" stop-color="#eee6d2"/></linearGradient>
+      <linearGradient id="elake" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#93b7ba"/><stop offset="1" stop-color="#527e85"/></linearGradient></defs>
+      <rect width="990" height="240" fill="url(#esky)"/>
+      <path d="M0 140 170 40 330 135 490 45 660 140 820 60 990 130 V240 H0Z" fill="#b9c8ce"/>
+      <rect y="160" width="990" height="80" fill="url(#elake)"/>
+      <g transform="translate(495,120)">
+        <rect x="-16" y="10" width="32" height="30" fill="#f3ead9" stroke="#8a7a5c"/>
+        <rect x="-4" y="-24" width="8" height="34" fill="#f3ead9" stroke="#8a7a5c"/>
+        <path d="M-8 -24 0 -40 8 -24Z" fill="#516e5a"/>
+        <g fill="#e0cfa8"><rect x="-52" y="18" width="24" height="22" stroke="#8a7a5c"/><rect x="30" y="18" width="24" height="22" stroke="#8a7a5c"/></g>
+        <path d="M-56 18 h32 l-16 -12Z M26 18 h32 l-16 -12Z" fill="#7d3f34"/>
+      </g>
+      <g stroke="#f2ead9" stroke-width="1.6" opacity=".65"><path d="M140 190 h80"/><path d="M420 208 h90"/><path d="M760 196 h70"/></g>
+    </svg>
+    <div class="caption-tag">SALZKAMMERGUT LAKES</div>
+  </div>
+  <div class="wrap grid2" style="padding-top:24px">
+    <div class="panel">
+      <div class="ph">EASY TO ADD</div>
+      <div class="tip"><div class="ti">🚘</div><div><h5>Salzburg — 3 h from Vienna</h5><p>Mozart's baroque old town, Hohensalzburg fortress & the Sound-of-Music gardens</p></div></div>
+      <div class="tip"><div class="ti">🏞</div><div><h5>Hallstatt — 1 h beyond</h5><p>The lake village of postcards; go at 8 AM before the crowds</p></div></div>
+      <div class="tip" style="margin-bottom:0"><div class="ti">📅</div><div><h5>Perfect Extension</h5><p>2–3 extra days — loop them in before Vienna, or fly home from Salzburg</p></div></div>
+    </div>
+    <div class="panel">
+      <div class="ph">REMEMBER BEFORE YOU FLY</div>
+      <div class="tip"><div class="ti">🎫</div><div><h5>Verify the Big Five</h5><p>Jungfraujoch · Aiguille du Midi · Balbianello days · Schönbrunn slots · one-way car drop fee</p></div></div>
+      <div class="tip"><div class="ti">🌤</div><div><h5>Watch the Summit Forecast</h5><p>Swap mountain days freely — the plan is built to flex</p></div></div>
+      <div class="tip" style="margin-bottom:0"><div class="ti">🧳</div><div><h5>Pack One Overnight Bag</h5><p>Big cases stay in the boot on the 1-night stops (Como · Innsbruck)</p></div></div>
+    </div>
+  </div>
+  <div style="padding:6px 46px 34px">
+    <p class="accent-quote" style="font-size:18px">“ Leave the Alps relaxed, recharged, and already dreaming of coming back. ”</p>
+  </div>
+  <div class="pfoot"><div class="fr"><span class="ft">FAMILY TRAVEL GUIDE</span></div><div class="fs">Alps to Vienna · 13 Days · 4 Countries</div></div>
+</div>
+
+</body>
+</html>

@@ -2330,7 +2330,8 @@
      "goodToKnow": "Return the van at VIE; allow 2.5 h before flight",
      "kind": "flight"
     }
-   ]
+   ],
+   "guideURL": "https://dubai417.github.io/trip-dashboard-cloud/guides/alps-to-vienna.html"
   }
  ]
 }
