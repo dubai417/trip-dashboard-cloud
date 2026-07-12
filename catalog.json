@@ -2,6 +2,16 @@
   "version": 1,
   "trips": [
     {
+      "id": "all-poi",
+      "name": "All POI",
+      "dateRange": "10205 places · Balloon · Breakfast · Burger & Sandwiches · Caffè · Caravan كرافان ومخيمات · Chicken nuggets restaurant · …",
+      "days": 1,
+      "places": 10205,
+      "kind": "places",
+      "updatedAt": "2026-07-12T11:07:41Z",
+      "dataPath": "trips/all-poi.json"
+    },
+    {
       "id": "hamburg-poi-finder",
       "name": "Hamburg POI Finder",
       "dateRange": "133 places · food · dessert · cafés · activities · shopping · photo · essentials",
