@@ -4,21 +4,21 @@
     {
       "id": "hamburg-poi-finder",
       "name": "Hamburg POI Finder",
-      "dateRange": "99 places · restaurants · activities · cafés",
+      "dateRange": "104 places · restaurants · activities · cafés",
       "days": 1,
-      "places": 99,
+      "places": 104,
       "kind": "places",
-      "updatedAt": "2026-07-11T19:24:05Z",
+      "updatedAt": "2026-07-12T03:49:32Z",
       "dataPath": "trips/hamburg-poi-finder.json"
     },
     {
       "id": "ribe-region-poi-finder",
       "name": "Ribe Region POI Finder",
-      "dateRange": "90 places · restaurants · activities · cafés",
+      "dateRange": "88 places · restaurants · activities · cafés",
       "days": 1,
-      "places": 90,
+      "places": 88,
       "kind": "places",
-      "updatedAt": "2026-07-11T19:24:05Z",
+      "updatedAt": "2026-07-12T03:49:32Z",
       "dataPath": "trips/ribe-region-poi-finder.json"
     },
     {
@@ -28,17 +28,17 @@
       "days": 1,
       "places": 195,
       "kind": "places",
-      "updatedAt": "2026-07-11T19:24:05Z",
+      "updatedAt": "2026-07-12T03:49:32Z",
       "dataPath": "trips/copenhagen-poi-finder.json"
     },
     {
       "id": "stockholm-poi-finder",
       "name": "Stockholm POI Finder",
-      "dateRange": "109 places · restaurants · activities · cafés",
+      "dateRange": "112 places · restaurants · activities · cafés",
       "days": 1,
-      "places": 109,
+      "places": 112,
       "kind": "places",
-      "updatedAt": "2026-07-11T19:24:05Z",
+      "updatedAt": "2026-07-12T03:49:32Z",
       "dataPath": "trips/stockholm-poi-finder.json"
     },
     {
