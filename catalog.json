@@ -2,6 +2,16 @@
   "version": 1,
   "trips": [
     {
+      "id": "athens-poi-finder",
+      "name": "Athens POI Finder",
+      "dateRange": "152 places · food · dessert · cafés · activities · shopping · photo · essentials",
+      "days": 1,
+      "places": 152,
+      "kind": "places",
+      "updatedAt": "2026-07-20T10:38:39Z",
+      "dataPath": "trips/athens-poi-finder.json"
+    },
+    {
       "id": "all-poi",
       "name": "All POI",
       "dateRange": "10205 places · Balloon · Breakfast · Burger & Sandwiches · Caffè · Caravan كرافان ومخيمات · Chicken nuggets restaurant · …",
