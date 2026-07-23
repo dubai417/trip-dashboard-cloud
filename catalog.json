@@ -4,11 +4,11 @@
     {
       "id": "athens-poi-finder",
       "name": "Athens POI Finder",
-      "dateRange": "152 places · food · dessert · cafés · activities · shopping · photo · essentials",
+      "dateRange": "167 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
       "days": 1,
-      "places": 152,
+      "places": 167,
       "kind": "places",
-      "updatedAt": "2026-07-20T10:38:39Z",
+      "updatedAt": "2026-07-23T04:33:31Z",
       "dataPath": "trips/athens-poi-finder.json"
     },
     {
@@ -24,41 +24,41 @@
     {
       "id": "hamburg-poi-finder",
       "name": "Hamburg POI Finder",
-      "dateRange": "133 places · food · dessert · cafés · activities · shopping · photo · essentials",
+      "dateRange": "147 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
       "days": 1,
-      "places": 133,
+      "places": 147,
       "kind": "places",
-      "updatedAt": "2026-07-12T04:26:38Z",
+      "updatedAt": "2026-07-23T04:33:31Z",
       "dataPath": "trips/hamburg-poi-finder.json"
     },
     {
       "id": "ribe-region-poi-finder",
       "name": "Ribe Region POI Finder",
-      "dateRange": "108 places · food · dessert · cafés · activities · shopping · photo · essentials",
+      "dateRange": "116 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
       "days": 1,
-      "places": 108,
+      "places": 116,
       "kind": "places",
-      "updatedAt": "2026-07-12T04:26:38Z",
+      "updatedAt": "2026-07-23T04:33:31Z",
       "dataPath": "trips/ribe-region-poi-finder.json"
     },
     {
       "id": "copenhagen-poi-finder",
       "name": "Copenhagen POI Finder",
-      "dateRange": "224 places · food · dessert · cafés · activities · shopping · photo · essentials",
+      "dateRange": "238 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
       "days": 1,
-      "places": 224,
+      "places": 238,
       "kind": "places",
-      "updatedAt": "2026-07-12T04:26:38Z",
+      "updatedAt": "2026-07-23T04:33:31Z",
       "dataPath": "trips/copenhagen-poi-finder.json"
     },
     {
       "id": "stockholm-poi-finder",
       "name": "Stockholm POI Finder",
-      "dateRange": "138 places · food · dessert · cafés · activities · shopping · photo · essentials",
+      "dateRange": "153 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
       "days": 1,
-      "places": 138,
+      "places": 153,
       "kind": "places",
-      "updatedAt": "2026-07-12T04:26:38Z",
+      "updatedAt": "2026-07-23T04:33:31Z",
       "dataPath": "trips/stockholm-poi-finder.json"
     },
     {
