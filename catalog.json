@@ -4,11 +4,11 @@
     {
       "id": "seychelles-poi-finder",
       "name": "Seychelles POI Finder",
-      "dateRange": "148 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
+      "dateRange": "141 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
       "days": 1,
-      "places": 148,
+      "places": 141,
       "kind": "places",
-      "updatedAt": "2026-08-02T16:13:50Z",
+      "updatedAt": "2026-08-02T17:02:08Z",
       "dataPath": "trips/seychelles-poi-finder.json"
     },
     {
@@ -18,7 +18,7 @@
       "days": 1,
       "places": 167,
       "kind": "places",
-      "updatedAt": "2026-07-23T04:33:31Z",
+      "updatedAt": "2026-08-02T17:02:08Z",
       "dataPath": "trips/athens-poi-finder.json"
     },
     {
@@ -38,7 +38,7 @@
       "days": 1,
       "places": 147,
       "kind": "places",
-      "updatedAt": "2026-07-23T04:33:31Z",
+      "updatedAt": "2026-08-02T17:02:08Z",
       "dataPath": "trips/hamburg-poi-finder.json"
     },
     {
@@ -48,17 +48,17 @@
       "days": 1,
       "places": 116,
       "kind": "places",
-      "updatedAt": "2026-07-23T04:33:31Z",
+      "updatedAt": "2026-08-02T17:02:08Z",
       "dataPath": "trips/ribe-region-poi-finder.json"
     },
     {
       "id": "copenhagen-poi-finder",
       "name": "Copenhagen POI Finder",
-      "dateRange": "238 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
+      "dateRange": "234 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
       "days": 1,
-      "places": 238,
+      "places": 234,
       "kind": "places",
-      "updatedAt": "2026-07-23T04:33:31Z",
+      "updatedAt": "2026-08-02T17:02:08Z",
       "dataPath": "trips/copenhagen-poi-finder.json"
     },
     {
@@ -68,7 +68,7 @@
       "days": 1,
       "places": 153,
       "kind": "places",
-      "updatedAt": "2026-07-23T04:33:31Z",
+      "updatedAt": "2026-08-02T17:02:08Z",
       "dataPath": "trips/stockholm-poi-finder.json"
     },
     {
