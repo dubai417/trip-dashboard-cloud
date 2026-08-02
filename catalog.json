@@ -2,6 +2,16 @@
   "version": 1,
   "trips": [
     {
+      "id": "seychelles-poi-finder",
+      "name": "Seychelles POI Finder",
+      "dateRange": "148 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
+      "days": 1,
+      "places": 148,
+      "kind": "places",
+      "updatedAt": "2026-08-02T16:13:50Z",
+      "dataPath": "trips/seychelles-poi-finder.json"
+    },
+    {
       "id": "athens-poi-finder",
       "name": "Athens POI Finder",
       "dateRange": "167 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
