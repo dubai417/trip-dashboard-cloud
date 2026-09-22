@@ -2,6 +2,16 @@
   "version": 1,
   "trips": [
     {
+      "id": "alps-autumn-2026",
+      "name": "Alps Autumn 2026 — Golden Larch Loop",
+      "dateRange": "10 days · 9–18 Oct 2026 · Zurich → Engadin → Dolomites → Garmisch → Neuschwanstein → Zurich",
+      "days": 10,
+      "places": 62,
+      "updatedAt": "2026-09-22T08:07:11Z",
+      "dataPath": "trips/alps-autumn-2026.json",
+      "guideURL": "https://dubai417.github.io/trip-dashboard-cloud/guides/alps-autumn-2026.html"
+    },
+    {
       "id": "seychelles-poi-finder",
       "name": "Seychelles POI Finder",
       "dateRange": "141 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
