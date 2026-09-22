@@ -2,6 +2,16 @@
   "version": 1,
   "trips": [
     {
+      "id": "engadin-poi-finder",
+      "name": "Engadin POI Finder",
+      "dateRange": "156 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
+      "days": 1,
+      "places": 156,
+      "kind": "places",
+      "updatedAt": "2026-09-22T19:31:12Z",
+      "dataPath": "trips/engadin-poi-finder.json"
+    },
+    {
       "id": "val-gardena-poi-finder",
       "name": "Val Gardena POI Finder",
       "dateRange": "147 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
