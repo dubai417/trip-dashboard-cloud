@@ -132,11 +132,11 @@
     {
       "id": "zurich-poi-finder",
       "name": "Zurich POI Finder",
-      "dateRange": "271 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
+      "dateRange": "279 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
       "days": 1,
-      "places": 271,
+      "places": 279,
       "kind": "places",
-      "updatedAt": "2026-09-22T15:44:40Z",
+      "updatedAt": "2026-09-22T15:45:25Z",
       "dataPath": "trips/zurich-poi-finder.json"
     },
     {
