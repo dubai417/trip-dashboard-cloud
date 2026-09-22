@@ -5,8 +5,8 @@
    "cloudID": "alps-autumn-2026",
    "name": "Alps Autumn 2026 — Golden Larch Loop",
    "currency": "EUR",
-   "startDate": "2026-10-09",
-   "endDate": "2026-10-18",
+   "startDate": 813240000.0,
+   "endDate": 814017600.0,
    "guideURL": "https://dubai417.github.io/trip-dashboard-cloud/guides/alps-autumn-2026.html",
    "places": [
     {
