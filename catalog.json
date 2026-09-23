@@ -2,6 +2,16 @@
   "version": 1,
   "trips": [
     {
+      "id": "garmisch-poi-finder",
+      "name": "Garmisch POI Finder",
+      "dateRange": "158 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
+      "days": 1,
+      "places": 158,
+      "kind": "places",
+      "updatedAt": "2026-09-23T01:43:39Z",
+      "dataPath": "trips/garmisch-poi-finder.json"
+    },
+    {
       "id": "engadin-poi-finder",
       "name": "Engadin POI Finder",
       "dateRange": "156 places · food · breakfast · dessert · cafés · activities · shopping · photo · essentials",
